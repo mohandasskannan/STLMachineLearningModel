@@ -58,7 +58,7 @@ Use Python and PyTorch. Keep preparation, training, generation, and mesh export 
 
 ### Setup (Windows / NVIDIA GPU)
 
-Use Python 3.12 and an isolated environment. The tested GPU build is PyTorch 2.8.0 with CUDA 12.6; it runs on the local GTX 1660 Ti. The wheel includes the CUDA runtime, so a separate CUDA toolkit is not required for this project.
+Use Python 3.12 and an isolated environment. The tested GPU build is PyTorch 2.8.0 with CUDA 12.6; it runs on a GTX 1660 Ti. The wheel includes the CUDA runtime, so a separate CUDA toolkit is not required for this project.
 
 ```powershell
 uv venv --python 3.12 .venv

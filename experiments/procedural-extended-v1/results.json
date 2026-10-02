@@ -1,0 +1,135 @@
+{
+  "gpu": "NVIDIA GeForce GTX 1660 Ti",
+  "fixed_vae_sha256": "388c5d9a50d50d9c35f99ec761c9ccdf5371a80f534808c9b00a21728a028dc9",
+  "cache_sha256": "50875efe17f4b313678886b581edb286482ffa58582684ec290193d6cb438fc9",
+  "baseline": {
+    "checkpoint": "runs\\procedural-diffusion-v1\\best.pt",
+    "sha256": "1458bf6694d206c6dcc96d21c72d02c9b2a3dc5a94631ef34409189a237f1726",
+    "step": 2870,
+    "epoch": 2870,
+    "metrics": {
+      "val": {
+        "noise_mse": 0.22507724165916443,
+        "shuffled_text_mse": 0.22895152866840363,
+        "conditioning_gap": 0.0038742870092391968
+      },
+      "test": {
+        "noise_mse": 0.13352841138839722,
+        "shuffled_text_mse": 0.13919849693775177,
+        "conditioning_gap": 0.005670085549354553
+      }
+    }
+  },
+  "extended": {
+    "checkpoint": "runs\\procedural-diffusion-extended-v1\\best.pt",
+    "sha256": "8721788b009bab23637b34bfd5bcfe9405d594592b4dbde35d31e858668e02e5",
+    "step": 5542,
+    "epoch": 5542,
+    "metrics": {
+      "val": {
+        "noise_mse": 0.20337212085723877,
+        "shuffled_text_mse": 0.2126140296459198,
+        "conditioning_gap": 0.00924190878868103
+      },
+      "test": {
+        "noise_mse": 0.10298463702201843,
+        "shuffled_text_mse": 0.11561267077922821,
+        "conditioning_gap": 0.012628033757209778
+      }
+    }
+  },
+  "prompts": [
+    "A chair with a tall back and armrests",
+    "a chair with armrests",
+    "a chair without armrests",
+    "a table with four legs"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "training_summary": {
+    "step": 89876,
+    "epoch": 89876,
+    "interrupted": false,
+    "session_seconds": 3600.2189999999246,
+    "peak_allocated_gib": 0.04477262496948242,
+    "validation": {
+      "noise_mse": 1.245851755142212,
+      "shuffled_text_mse": 1.5741631984710693,
+      "conditioning_gap": 0.3283114433288574
+    },
+    "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\procedural-diffusion-extended-v1\\last.pt"
+  },
+  "before_geometry": {
+    "exported": 12,
+    "errors": [],
+    "components": [
+      32,
+      141,
+      31,
+      37,
+      134,
+      35,
+      36,
+      123,
+      38,
+      56,
+      124,
+      36
+    ],
+    "watertight": 12,
+    "boundary_capped": 12,
+    "nearest_train_iou": [
+      0.588943362236023,
+      0.18303030729293823,
+      0.29361701011657715,
+      0.5801324248313904,
+      0.17717455327510834,
+      0.27632254362106323,
+      0.5926430225372314,
+      0.15109290182590485,
+      0.256725937128067,
+      0.5832968950271606,
+      0.16465169191360474,
+      0.27693143486976624
+    ]
+  },
+  "after_geometry": {
+    "exported": 12,
+    "errors": [],
+    "components": [
+      68,
+      158,
+      37,
+      63,
+      174,
+      42,
+      71,
+      153,
+      54,
+      69,
+      135,
+      49
+    ],
+    "watertight": 12,
+    "boundary_capped": 12,
+    "nearest_train_iou": [
+      0.3974311947822571,
+      0.27730295062065125,
+      0.5260483026504517,
+      0.38941606879234314,
+      0.25,
+      0.5182237029075623,
+      0.39000746607780457,
+      0.21624444425106049,
+      0.5177335739135742,
+      0.294012188911438,
+      0.276862233877182,
+      0.4443485736846924
+    ]
+  },
+  "reopened_all_finite": true,
+  "reopened_scale_correct": true
+}

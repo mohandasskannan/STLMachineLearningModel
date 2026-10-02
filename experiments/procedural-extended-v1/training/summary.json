@@ -1,0 +1,13 @@
+{
+  "step": 89876,
+  "epoch": 89876,
+  "interrupted": false,
+  "session_seconds": 3600.2189999999246,
+  "peak_allocated_gib": 0.04477262496948242,
+  "validation": {
+    "noise_mse": 1.245851755142212,
+    "shuffled_text_mse": 1.5741631984710693,
+    "conditioning_gap": 0.3283114433288574
+  },
+  "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\procedural-diffusion-extended-v1\\last.pt"
+}

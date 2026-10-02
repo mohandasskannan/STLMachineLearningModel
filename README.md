@@ -167,19 +167,40 @@ Generation writes STL plus `.mesh.json` and `.generation.json` sidecars document
 
 The tests use an explicitly injected offline text-encoder double where appropriate. Production generation always uses the real pretrained encoder. Synthetic checks do not establish research-data model quality.
 
-### Verification performed
+### Verification performed — updated October 2, 2026
 
 - Automated tests cover data and mesh behavior, exact CPU checkpoint continuation, both model stages, and application routes/callbacks. Lint and formatting checks pass.
 - GTX 1660 Ti benchmark: batch 8, 10 timed synthetic VAE steps, approximately **0.0096 seconds/step** and **0.083 GiB peak PyTorch-allocated memory**. This excludes data loading, validation, CUDA context memory, and other GPU processes.
-- A 200-step VAE run on two procedural training shapes reached **0.888 training IoU**. Both reconstructed STL files reopened as watertight meshes; one retained two disconnected components. Held-out fixture IoU was only **0.300**.
-- The real MiniLM encoder was downloaded and cached, and a 200-step diffusion smoke run completed. Held-out test noise MSE was **0.9995**, with a correct-versus-shuffled conditioning gap of only **0.00079**: this does **not** demonstrate useful prompt following.
+- The VAE trained on all **20 procedural training shapes** for **119.094 seconds**. Its selected checkpoint reached **0.891406 validation IoU** and **0.948203 test IoU**, compared with about 0.300 held-out IoU in the earlier two-object smoke run. Both validation reconstructions reopened as watertight, single-component meshes, though the chair loses armrests and the table has distorted edges.
+- Diffusion initially trained for **166.204 seconds**, then resumed for **3,600.219 seconds (one additional hour)** on the GTX 1660 Ti. The extension added **86,876 steps**, reaching **89,876 total**. Its validation-selected checkpoint is step **5,542**; subsequent training overfit the fixture. The VAE, cached embeddings, architecture, learning rate, and splits remained fixed.
+- The exact prompt **`A chair with a tall back and armrests`** and three chair/table controls were tested with seeds **42, 43, and 44**. All 36 before/selected/final STL exports reopened with finite coordinates, watertight surfaces, and a 100 mm longest dimension. They remain severely fragmented. The selected extended checkpoint has **37–174 disconnected components** across its 12 samples; the final full-hour state has **9–123**, with some clearer category differences but broken geometry. Tall/short-back control is not supported by this fixture's captions.
 - No Text2Shape training run has been performed. No browser was connected for visual UI inspection, and no slicer/physical-print validation was performed. Local application routes and callbacks were tested programmatically.
 
-The ignored `data/fixture*`, `runs/fixture-*`, and `outputs/fixture-*` artifacts are engineering smoke-test results. Do not treat them as a useful general-purpose model or publish their metrics as Text2Shape results.
+The current diffusion metrics are:
 
-A subsequent [full procedural fixture experiment](experiments/procedural-v1/report.md) trained on all 20 training shapes. Selected VAE validation/test IoU reached 0.891/0.948, but diffusion outputs remained fragmented with weak prompt control. The report includes training times, held-out metrics, mesh diagnostics, and comparison previews.
+| Checkpoint | Validation noise MSE | Validation conditioning gap | Test noise MSE | Test conditioning gap |
+| --- | ---: | ---: | ---: | ---: |
+| Original best, step 2,870 | 0.225077 | 0.003874 | 0.133528 | 0.005670 |
+| Extended best, step 5,542 | **0.203372** | **0.009242** | **0.102985** | **0.012628** |
+| Full-hour final state, step 89,876 | 1.245852 | 0.328311 | 0.540591 | 0.208712 |
+
+The gap is shuffled-text MSE minus correct-text MSE. A larger gap alone does not establish better prompt following: the final state has much worse held-out error. There are only two validation and two test objects, evaluated with fixed sampled noise/timesteps. Checkpoint selection used validation only.
+
+See the [one-hour extension report](experiments/procedural-extended-v1/report.md) for actual timings, metrics, defects, and matched-seed previews: [before](experiments/procedural-extended-v1/before/preview-front.png), [selected best](experiments/procedural-extended-v1/after/preview-front.png), and [full-hour final state](experiments/procedural-extended-v1/last/preview-front.png). The [initial full-fixture report](experiments/procedural-v1/report.md) remains available as the baseline.
+
+To try the selected extended checkpoint on the machine with the local weights:
+
+```powershell
+.\.venv\Scripts\python.exe -m stlmodel serve --vae runs/procedural-vae-v1/best.pt --diffusion runs/procedural-diffusion-extended-v1/best.pt --device cuda
+```
+
+Open **http://127.0.0.1:7860**. To try the final full-hour state, replace the diffusion path with `runs/procedural-diffusion-extended-v1/last.pt`; its partially improved visual category separation comes with substantially worse held-out metrics. Geometry from both checkpoints remains defective.
+
+The ignored datasets, checkpoints, and STL binaries remain local; a GitHub clone alone does not include the trained weights. These are small procedural engineering experiments, not a useful general-purpose model or evidence of Text2Shape performance.
 
 First Run
+
+Prompt: **`A chair with a tall back and armrests`**. This screenshot uses the original checkpoint, before the one-hour extension.
 
 <img width="708" height="710" alt="image" src="https://github.com/user-attachments/assets/ce19febf-cb25-4709-943f-18a6d69f9071" />
 

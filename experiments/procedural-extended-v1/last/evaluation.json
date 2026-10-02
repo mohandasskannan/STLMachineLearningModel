@@ -1,0 +1,442 @@
+{
+  "samples": [
+    {
+      "prompt": "A chair with a tall back and armrests",
+      "seed": 42,
+      "nearest_train_id": "fixture-chair-0002",
+      "nearest_train_iou": 0.39612531661987305,
+      "mesh": {
+        "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-0-seed-42.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          75.57560540034743,
+          66.8839839278715,
+          100.0
+        ],
+        "vertices": 2034,
+        "faces": 3940,
+        "components": 37,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "37 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      }
+    },
+    {
+      "prompt": "A chair with a tall back and armrests",
+      "seed": 43,
+      "nearest_train_id": "fixture-table-0003",
+      "nearest_train_iou": 0.25130584836006165,
+      "mesh": {
+        "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-0-seed-43.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          100.0,
+          96.94332617787973,
+          99.02472185322375
+        ],
+        "vertices": 1722,
+        "faces": 3208,
+        "components": 66,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "66 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      }
+    },
+    {
+      "prompt": "A chair with a tall back and armrests",
+      "seed": 44,
+      "nearest_train_id": "fixture-chair-0010",
+      "nearest_train_iou": 0.3155493140220642,
+      "mesh": {
+        "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-0-seed-44.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          100.0,
+          71.9784926496418,
+          99.81907473719754
+        ],
+        "vertices": 2546,
+        "faces": 5004,
+        "components": 24,
+        "watertight": true,
+        "warnings": [
+          "24 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      }
+    },
+    {
+      "prompt": "a chair with armrests",
+      "seed": 42,
+      "nearest_train_id": "fixture-chair-0002",
+      "nearest_train_iou": 0.4010717272758484,
+      "mesh": {
+        "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-1-seed-42.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          83.33200444076388,
+          86.88640042082028,
+          100.0
+        ],
+        "vertices": 2084,
+        "faces": 4096,
+        "components": 23,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "23 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      }
+    },
+    {
+      "prompt": "a chair with armrests",
+      "seed": 43,
+      "nearest_train_id": "fixture-table-0003",
+      "nearest_train_iou": 0.2799532413482666,
+      "mesh": {
+        "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-1-seed-43.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          100.0,
+          81.89348738630449,
+          90.9638120866869
+        ],
+        "vertices": 1675,
+        "faces": 3174,
+        "components": 49,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "49 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      }
+    },
+    {
+      "prompt": "a chair with armrests",
+      "seed": 44,
+      "nearest_train_id": "fixture-chair-0010",
+      "nearest_train_iou": 0.3050369918346405,
+      "mesh": {
+        "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-1-seed-44.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          96.70429630223555,
+          72.26886961043928,
+          100.0
+        ],
+        "vertices": 2480,
+        "faces": 4860,
+        "components": 31,
+        "watertight": true,
+        "warnings": [
+          "31 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      }
+    },
+    {
+      "prompt": "a chair without armrests",
+      "seed": 42,
+      "nearest_train_id": "fixture-chair-0005",
+      "nearest_train_iou": 0.4529878795146942,
+      "mesh": {
+        "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-2-seed-42.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          98.8816007475321,
+          100.0,
+          99.66199007134567
+        ],
+        "vertices": 2399,
+        "faces": 4634,
+        "components": 48,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "48 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      }
+    },
+    {
+      "prompt": "a chair without armrests",
+      "seed": 43,
+      "nearest_train_id": "fixture-chair-0009",
+      "nearest_train_iou": 0.35029685497283936,
+      "mesh": {
+        "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-2-seed-43.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          100.0,
+          99.50115617896336,
+          99.58936750850923
+        ],
+        "vertices": 3311,
+        "faces": 6154,
+        "components": 123,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "123 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      }
+    },
+    {
+      "prompt": "a chair without armrests",
+      "seed": 44,
+      "nearest_train_id": "fixture-chair-0009",
+      "nearest_train_iou": 0.49777182936668396,
+      "mesh": {
+        "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-2-seed-44.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          100.0,
+          99.39208074322892,
+          99.46812873057598
+        ],
+        "vertices": 2925,
+        "faces": 5454,
+        "components": 102,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "102 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      }
+    },
+    {
+      "prompt": "a table with four legs",
+      "seed": 42,
+      "nearest_train_id": "fixture-table-0007",
+      "nearest_train_iou": 0.28807947039604187,
+      "mesh": {
+        "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-3-seed-42.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          100.0,
+          82.79719239179266,
+          99.88005868198445
+        ],
+        "vertices": 2427,
+        "faces": 4802,
+        "components": 25,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "25 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      }
+    },
+    {
+      "prompt": "a table with four legs",
+      "seed": 43,
+      "nearest_train_id": "fixture-table-0003",
+      "nearest_train_iou": 0.7515964508056641,
+      "mesh": {
+        "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-3-seed-43.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          88.4708340506769,
+          85.5607541666907,
+          99.99999999999999
+        ],
+        "vertices": 1561,
+        "faces": 3102,
+        "components": 9,
+        "watertight": true,
+        "warnings": [
+          "9 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      }
+    },
+    {
+      "prompt": "a table with four legs",
+      "seed": 44,
+      "nearest_train_id": "fixture-table-0003",
+      "nearest_train_iou": 0.5076400637626648,
+      "mesh": {
+        "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-3-seed-44.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          94.19440069240838,
+          70.71583494974986,
+          100.0
+        ],
+        "vertices": 1892,
+        "faces": 3752,
+        "components": 13,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "13 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "a": 0,
+      "b": 1,
+      "voxel_iou": 0.011560693641618497
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "voxel_iou": 0.3536144578313253
+    },
+    {
+      "a": 0,
+      "b": 3,
+      "voxel_iou": 0.8190212373037857
+    },
+    {
+      "a": 0,
+      "b": 6,
+      "voxel_iou": 0.26573816155988855
+    },
+    {
+      "a": 0,
+      "b": 9,
+      "voxel_iou": 0.21571072319201995
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "voxel_iou": 0.2758384668035592
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "voxel_iou": 0.7793904208998549
+    },
+    {
+      "a": 1,
+      "b": 7,
+      "voxel_iou": 0.2793522267206478
+    },
+    {
+      "a": 1,
+      "b": 10,
+      "voxel_iou": 0.3246463142218913
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "voxel_iou": 0.7807142857142857
+    },
+    {
+      "a": 2,
+      "b": 8,
+      "voxel_iou": 0.33902439024390246
+    },
+    {
+      "a": 2,
+      "b": 11,
+      "voxel_iou": 0.29901423877327493
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "voxel_iou": 0.014392991239048811
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "voxel_iou": 0.2846376811594203
+    },
+    {
+      "a": 3,
+      "b": 6,
+      "voxel_iou": 0.2688888888888889
+    },
+    {
+      "a": 3,
+      "b": 9,
+      "voxel_iou": 0.2480916030534351
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "voxel_iou": 0.34128705712219815
+    },
+    {
+      "a": 4,
+      "b": 7,
+      "voxel_iou": 0.3067027758970887
+    },
+    {
+      "a": 4,
+      "b": 10,
+      "voxel_iou": 0.3570359281437126
+    },
+    {
+      "a": 5,
+      "b": 8,
+      "voxel_iou": 0.40145228215767637
+    },
+    {
+      "a": 5,
+      "b": 11,
+      "voxel_iou": 0.261646803900325
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "voxel_iou": 0.13083296990841692
+    },
+    {
+      "a": 6,
+      "b": 8,
+      "voxel_iou": 0.1955114372032801
+    },
+    {
+      "a": 6,
+      "b": 9,
+      "voxel_iou": 0.14401212733703891
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "voxel_iou": 0.5462138084632516
+    },
+    {
+      "a": 7,
+      "b": 10,
+      "voxel_iou": 0.24336504757135705
+    },
+    {
+      "a": 8,
+      "b": 11,
+      "voxel_iou": 0.13600352112676056
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "voxel_iou": 0.0517578125
+    },
+    {
+      "a": 9,
+      "b": 11,
+      "voxel_iou": 0.10784837159636947
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "voxel_iou": 0.5718213058419244
+    }
+  ],
+  "note": "High overlap can indicate collapse or memorization; low overlap does not prove quality."
+}

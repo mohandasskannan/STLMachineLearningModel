@@ -1,0 +1,134 @@
+[
+  {
+    "path": "outputs\\procedural-extended-v1\\after\\prompt-0-seed-42.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 68,
+    "extents_mm": [
+      93.48143005371094,
+      100.0,
+      98.35528564453125
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v1\\after\\prompt-0-seed-43.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 158,
+    "extents_mm": [
+      99.68584442138672,
+      100.0,
+      99.91093444824219
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v1\\after\\prompt-0-seed-44.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 37,
+    "extents_mm": [
+      100.0,
+      87.0724868774414,
+      99.62792205810547
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v1\\after\\prompt-1-seed-42.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 63,
+    "extents_mm": [
+      85.40167999267578,
+      100.0,
+      98.20955657958984
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v1\\after\\prompt-1-seed-43.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 174,
+    "extents_mm": [
+      99.74944305419922,
+      100.0,
+      99.97988891601562
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v1\\after\\prompt-1-seed-44.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 42,
+    "extents_mm": [
+      100.0,
+      86.98900604248047,
+      99.59173583984375
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v1\\after\\prompt-2-seed-42.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 71,
+    "extents_mm": [
+      98.22222900390625,
+      100.0,
+      98.61070251464844
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v1\\after\\prompt-2-seed-43.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 153,
+    "extents_mm": [
+      99.95986938476562,
+      99.85688018798828,
+      100.0
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v1\\after\\prompt-2-seed-44.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 54,
+    "extents_mm": [
+      98.2863540649414,
+      100.0,
+      98.72714233398438
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v1\\after\\prompt-3-seed-42.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 69,
+    "extents_mm": [
+      94.65431213378906,
+      100.0,
+      96.66555786132812
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v1\\after\\prompt-3-seed-43.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 135,
+    "extents_mm": [
+      99.42965698242188,
+      100.0,
+      99.8312759399414
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v1\\after\\prompt-3-seed-44.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 49,
+    "extents_mm": [
+      98.65448760986328,
+      94.66116333007812,
+      100.0
+    ]
+  }
+]

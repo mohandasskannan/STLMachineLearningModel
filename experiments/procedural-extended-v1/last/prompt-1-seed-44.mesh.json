@@ -1,0 +1,17 @@
+{
+  "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v1\\last\\prompt-1-seed-44.stl",
+  "units": "mm (interpret STL coordinates as millimeters)",
+  "extents_mm": [
+    96.70429630223555,
+    72.26886961043928,
+    100.0
+  ],
+  "vertices": 2480,
+  "faces": 4860,
+  "components": 31,
+  "watertight": true,
+  "warnings": [
+    "31 disconnected components; all have been preserved.",
+    "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+  ]
+}

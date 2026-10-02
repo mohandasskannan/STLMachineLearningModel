@@ -1,0 +1,11 @@
+{
+  "vae_sha256": "388c5d9a50d50d9c35f99ec761c9ccdf5371a80f534808c9b00a21728a028dc9",
+  "diffusion_sha256": "e9839c5d7f04ade8199d55b86d58762b5b4d97297f87a7aeb6441404d9eddb10",
+  "text_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "text_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "prompt": "A chair with a tall back and armrests",
+  "seed": 44,
+  "sampling_steps": 50,
+  "threshold": 0.5,
+  "size_mm": 100
+}

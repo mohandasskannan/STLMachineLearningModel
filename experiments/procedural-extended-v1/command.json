@@ -1,0 +1,34 @@
+{
+  "command": [
+    "C:\\Users\\marug\\STLModel\\.venv\\Scripts\\python.exe",
+    "-m",
+    "stlmodel",
+    "train-diffusion",
+    "--cache",
+    "data\\procedural-embeddings-v1.pt",
+    "--out",
+    "runs\\procedural-diffusion-extended-v1",
+    "--resume",
+    "runs\\procedural-diffusion-extended-v1\\last.pt",
+    "--device",
+    "cuda",
+    "--epochs",
+    "1000000",
+    "--max-hours",
+    "1"
+  ],
+  "readme_commit": "ea35eb6",
+  "prompts": [
+    "A chair with a tall back and armrests",
+    "a chair with armrests",
+    "a chair without armrests",
+    "a table with four legs"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "vae_sha256": "388c5d9a50d50d9c35f99ec761c9ccdf5371a80f534808c9b00a21728a028dc9",
+  "cache_sha256": "50875efe17f4b313678886b581edb286482ffa58582684ec290193d6cb438fc9"
+}

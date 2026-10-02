@@ -176,3 +176,5 @@ The tests use an explicitly injected offline text-encoder double where appropria
 - No Text2Shape training run has been performed. No browser was connected for visual UI inspection, and no slicer/physical-print validation was performed. Local application routes and callbacks were tested programmatically.
 
 The ignored `data/fixture*`, `runs/fixture-*`, and `outputs/fixture-*` artifacts are engineering smoke-test results. Do not treat them as a useful general-purpose model or publish their metrics as Text2Shape results.
+
+A subsequent [full procedural fixture experiment](experiments/procedural-v1/report.md) trained on all 20 training shapes. Selected VAE validation/test IoU reached 0.891/0.948, but diffusion outputs remained fragmented with weak prompt control. The report includes training times, held-out metrics, mesh diagnostics, and comparison previews.

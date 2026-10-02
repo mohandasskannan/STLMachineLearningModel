@@ -1,0 +1,8 @@
+{
+  "split": "val",
+  "checkpoint": "runs\\procedural-vae-v1\\best.pt",
+  "metrics": {
+    "iou": 0.891406238079071,
+    "bce": 0.036801598966121674
+  }
+}

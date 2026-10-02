@@ -1,0 +1,16 @@
+{
+  "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-v1\\reconstructions\\0001-reconstruction.stl",
+  "units": "mm (interpret STL coordinates as millimeters)",
+  "extents_mm": [
+    91.25098326774412,
+    100.00000000000001,
+    79.50720152628779
+  ],
+  "vertices": 1546,
+  "faces": 3088,
+  "components": 1,
+  "watertight": true,
+  "warnings": [
+    "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+  ]
+}

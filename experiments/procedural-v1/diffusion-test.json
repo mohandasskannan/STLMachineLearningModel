@@ -1,0 +1,9 @@
+{
+  "split": "test",
+  "checkpoint": "runs\\procedural-diffusion-v1\\best.pt",
+  "metrics": {
+    "noise_mse": 0.13352841138839722,
+    "shuffled_text_mse": 0.13919849693775177,
+    "conditioning_gap": 0.005670085549354553
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "fixture-chair-0000",
+    "mesh": {
+      "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-v1\\reconstructions\\0000-reconstruction.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        96.01655452511244,
+        80.00332743926111,
+        99.99999999999999
+      ],
+      "vertices": 2334,
+      "faces": 4664,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    }
+  },
+  {
+    "id": "fixture-table-0005",
+    "mesh": {
+      "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-v1\\reconstructions\\0001-reconstruction.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        91.25098326774412,
+        100.00000000000001,
+        79.50720152628779
+      ],
+      "vertices": 1546,
+      "faces": 3088,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    }
+  }
+]

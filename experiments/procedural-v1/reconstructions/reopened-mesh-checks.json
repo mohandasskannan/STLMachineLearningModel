@@ -1,0 +1,46 @@
+[
+  {
+    "path": "outputs\\procedural-v1\\reconstructions\\0000-reconstruction.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      96.01655578613281,
+      80.00332641601562,
+      100.0
+    ]
+  },
+  {
+    "path": "outputs\\procedural-v1\\reconstructions\\0000-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      96.0,
+      80.0,
+      100.0
+    ]
+  },
+  {
+    "path": "outputs\\procedural-v1\\reconstructions\\0001-reconstruction.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      91.25098419189453,
+      100.0,
+      79.5072021484375
+    ]
+  },
+  {
+    "path": "outputs\\procedural-v1\\reconstructions\\0001-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      80.0,
+      100.0,
+      60.0
+    ]
+  }
+]

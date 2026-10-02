@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "batch_size": 8,
+  "learning_rate": 0.0002,
+  "epochs": 1000,
+  "max_hours": 0.25,
+  "max_steps": 0,
+  "checkpoint_every": 100,
+  "latent_dim": 256,
+  "diffusion_steps": 200,
+  "kl_weight": 0.001,
+  "kl_warmup_steps": 1000,
+  "limit": 0,
+  "kind": "vae",
+  "device": "cuda",
+  "source": "C:\\Users\\marug\\STLModel\\data\\fixture\\manifest.json",
+  "source_sha256": "220b22dae354c76b01cdc63df3a694fc6c061aab7d66d77c412db43afccc4fe6"
+}

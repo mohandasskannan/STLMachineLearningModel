@@ -1,0 +1,12 @@
+{
+  "step": 3000,
+  "epoch": 1000,
+  "interrupted": false,
+  "session_seconds": 119.09400000004098,
+  "peak_allocated_gib": 0.08269882202148438,
+  "validation": {
+    "iou": 0.8839749693870544,
+    "bce": 0.04028533771634102
+  },
+  "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\procedural-vae-v1\\last.pt"
+}

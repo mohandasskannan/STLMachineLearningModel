@@ -1,0 +1,162 @@
+{
+  "vae": {
+    "checkpoint": "runs\\procedural-vae-v1\\best.pt",
+    "sha256": "388c5d9a50d50d9c35f99ec761c9ccdf5371a80f534808c9b00a21728a028dc9",
+    "selected_step": 2718,
+    "selected_epoch": 906,
+    "selected_validation": {
+      "iou": 0.891406238079071,
+      "bce": 0.036801598966121674
+    },
+    "run_summary": {
+      "step": 3000,
+      "epoch": 1000,
+      "interrupted": false,
+      "session_seconds": 119.09400000004098,
+      "peak_allocated_gib": 0.08269882202148438,
+      "validation": {
+        "iou": 0.8839749693870544,
+        "bce": 0.04028533771634102
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\procedural-vae-v1\\last.pt"
+    },
+    "test": {
+      "iou": 0.9482029676437378,
+      "bce": 0.017414312809705734
+    }
+  },
+  "diffusion": {
+    "checkpoint": "runs\\procedural-diffusion-v1\\best.pt",
+    "sha256": "1458bf6694d206c6dcc96d21c72d02c9b2a3dc5a94631ef34409189a237f1726",
+    "selected_step": 2870,
+    "selected_epoch": 2870,
+    "selected_validation": {
+      "noise_mse": 0.22507724165916443,
+      "shuffled_text_mse": 0.22895152866840363,
+      "conditioning_gap": 0.0038742870092391968
+    },
+    "run_summary": {
+      "step": 3000,
+      "epoch": 3000,
+      "interrupted": false,
+      "session_seconds": 166.204000000027,
+      "peak_allocated_gib": 0.04574918746948242,
+      "validation": {
+        "noise_mse": 0.24632027745246887,
+        "shuffled_text_mse": 0.25209707021713257,
+        "conditioning_gap": 0.005776792764663696
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\procedural-diffusion-v1\\last.pt"
+    },
+    "test": {
+      "noise_mse": 0.13352841138839722,
+      "shuffled_text_mse": 0.13919849693775177,
+      "conditioning_gap": 0.005670085549354553
+    }
+  },
+  "cache_matches_selected_vae": true,
+  "diffusion_matches_selected_vae": true,
+  "cache_examples": {
+    "train": 20,
+    "val": 2,
+    "test": 2
+  },
+  "text_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "generated_meshes": {
+    "count": 9,
+    "failures": 0,
+    "watertight": 9,
+    "components": [
+      37,
+      134,
+      35,
+      36,
+      123,
+      38,
+      56,
+      124,
+      36
+    ],
+    "boundary_capped": 9,
+    "nearest_train_iou": [
+      0.5801324248313904,
+      0.17717455327510834,
+      0.27632254362106323,
+      0.5926430225372314,
+      0.15109290182590485,
+      0.256725937128067,
+      0.5832968950271606,
+      0.16465169191360474,
+      0.27693143486976624
+    ]
+  },
+  "prompt_pair_iou": [
+    {
+      "prompts": [
+        "a chair with armrests",
+        "a chair without armrests"
+      ],
+      "by_seed": [
+        0.8956521739130435,
+        0.8125884016973126,
+        0.7366863905325444
+      ],
+      "mean": 0.8149756553809668
+    },
+    {
+      "prompts": [
+        "a chair with armrests",
+        "a table with four legs"
+      ],
+      "by_seed": [
+        0.8522167487684729,
+        0.8231617647058823,
+        0.7540106951871658
+      ],
+      "mean": 0.8097964028871737
+    },
+    {
+      "prompts": [
+        "a chair without armrests",
+        "a table with four legs"
+      ],
+      "by_seed": [
+        0.8513135830072667,
+        0.7794321329639889,
+        0.6697530864197531
+      ],
+      "mean": 0.7668329341303363
+    }
+  ],
+  "seed_diversity_iou": [
+    {
+      "prompt": "a chair with armrests",
+      "pairwise_iou": [
+        0.009500609013398295,
+        0.1347517730496454,
+        0.10847345862182657
+      ],
+      "mean": 0.08424194689495675
+    },
+    {
+      "prompt": "a chair without armrests",
+      "pairwise_iou": [
+        0.008778173190984579,
+        0.11406672678088368,
+        0.09472049689440994
+      ],
+      "mean": 0.07252179895542607
+    },
+    {
+      "prompt": "a table with four legs",
+      "pairwise_iou": [
+        0.012295081967213115,
+        0.122040072859745,
+        0.11122554067971163
+      ],
+      "mean": 0.08185356516888992
+    }
+  ],
+  "reopened_all_finite": true,
+  "reopened_all_longest_dimension_100mm": true
+}

@@ -216,8 +216,15 @@ Prompt: **`A chair with a tall back and armrests`**. This screenshot uses the or
 
 
 Second Run
+
 Same prompt, after one hour of training:
 
 <img width="688" height="695" alt="image" src="https://github.com/user-attachments/assets/45817063-efdf-4d41-9e77-6396cb688bf0" />
 
+
+Third Run
+
+Worse image
+
+<img width="627" height="745" alt="image" src="https://github.com/user-attachments/assets/32714a3c-712d-4a36-a03e-e53e88b3f596" />
 

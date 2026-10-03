@@ -1,0 +1,134 @@
+[
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-best\\prompt-0-seed-42.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 19,
+    "extents_mm": [
+      100.0,
+      99.9837646484375,
+      99.9792251586914
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-best\\prompt-0-seed-43.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 15,
+    "extents_mm": [
+      99.9958267211914,
+      99.84252166748047,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-best\\prompt-0-seed-44.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 28,
+    "extents_mm": [
+      99.97139739990234,
+      99.83043670654297,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-best\\prompt-1-seed-42.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 22,
+    "extents_mm": [
+      100.0,
+      99.99546813964844,
+      99.96943664550781
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-best\\prompt-1-seed-43.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 12,
+    "extents_mm": [
+      99.9705810546875,
+      99.67642974853516,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-best\\prompt-1-seed-44.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 31,
+    "extents_mm": [
+      99.7705307006836,
+      99.83422088623047,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-best\\prompt-2-seed-42.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 19,
+    "extents_mm": [
+      100.0,
+      99.99203491210938,
+      99.96894073486328
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-best\\prompt-2-seed-43.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 10,
+    "extents_mm": [
+      100.0,
+      99.38414764404297,
+      99.98631286621094
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-best\\prompt-2-seed-44.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 29,
+    "extents_mm": [
+      99.99989318847656,
+      99.71868896484375,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-best\\prompt-3-seed-42.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 23,
+    "extents_mm": [
+      100.0,
+      99.92700958251953,
+      99.99983978271484
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-best\\prompt-3-seed-43.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 8,
+    "extents_mm": [
+      99.99635314941406,
+      99.8577651977539,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-best\\prompt-3-seed-44.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 30,
+    "extents_mm": [
+      100.0,
+      99.88279724121094,
+      99.96546936035156
+    ]
+  }
+]

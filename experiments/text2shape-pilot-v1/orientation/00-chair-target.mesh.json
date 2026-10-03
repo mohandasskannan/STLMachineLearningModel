@@ -1,0 +1,17 @@
+{
+  "path": "E:\\STLModelData\\text2shape-v1\\review\\orientation\\00-chair-target.stl",
+  "units": "mm (interpret STL coordinates as millimeters)",
+  "extents_mm": [
+    71.875,
+    100.0,
+    78.125
+  ],
+  "vertices": 4732,
+  "faces": 9492,
+  "components": 1,
+  "watertight": true,
+  "warnings": [
+    "Geometry touches the grid boundary; the exterior is capped for export.",
+    "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+  ]
+}

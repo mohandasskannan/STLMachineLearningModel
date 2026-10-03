@@ -1,0 +1,18 @@
+{
+  "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\04-table-1-reconstruction.stl",
+  "units": "mm (interpret STL coordinates as millimeters)",
+  "extents_mm": [
+    99.99748703008748,
+    100.0,
+    57.69917485475254
+  ],
+  "vertices": 2900,
+  "faces": 5788,
+  "components": 3,
+  "watertight": true,
+  "warnings": [
+    "Geometry touches the grid boundary; the exterior is capped for export.",
+    "3 disconnected components; all have been preserved.",
+    "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+  ]
+}

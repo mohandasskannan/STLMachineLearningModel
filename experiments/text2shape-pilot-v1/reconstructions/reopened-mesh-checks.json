@@ -1,0 +1,178 @@
+[
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\00-chair-0-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      71.875,
+      100.0,
+      78.125
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\00-chair-1-reconstruction.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 5,
+    "extents_mm": [
+      72.00927734375,
+      100.0,
+      81.25845336914062
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\01-chair-0-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      42.30769348144531,
+      46.153846740722656,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\01-chair-1-reconstruction.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 4,
+    "extents_mm": [
+      75.91702270507812,
+      48.836463928222656,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\02-chair-0-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      68.75,
+      78.125,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\02-chair-1-reconstruction.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      68.89418029785156,
+      78.1688003540039,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\03-chair-0-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      50.0,
+      50.0,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\03-chair-1-reconstruction.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 3,
+    "extents_mm": [
+      95.51483917236328,
+      50.30167770385742,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\04-table-0-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      100.0,
+      100.0,
+      56.25
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\04-table-1-reconstruction.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 3,
+    "extents_mm": [
+      99.99748992919922,
+      100.0,
+      57.69917297363281
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\05-table-0-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      100.0,
+      100.0,
+      53.125
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\05-table-1-reconstruction.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 2,
+    "extents_mm": [
+      99.98490905761719,
+      100.0,
+      80.38204193115234
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\06-table-0-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      100.0,
+      100.0,
+      34.375
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\06-table-1-reconstruction.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      100.0,
+      99.97376251220703,
+      34.38178634643555
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\07-table-0-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      100.0,
+      56.25,
+      43.75
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\07-table-1-reconstruction.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      100.0,
+      56.33366775512695,
+      43.909873962402344
+    ]
+  }
+]

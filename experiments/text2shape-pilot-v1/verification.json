@@ -1,0 +1,638 @@
+{
+  "independently_reopened_meshes": 48,
+  "meshes": [
+    {
+      "stage": "orientation",
+      "file": "00-chair-target.stl",
+      "sha256": "9c903d8f2a96157eab22f77aae1ec9b7a75a5d09a6d42be3152c627fe6bc780d",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        71.875,
+        100.0,
+        78.125
+      ],
+      "components": 1
+    },
+    {
+      "stage": "orientation",
+      "file": "01-chair-target.stl",
+      "sha256": "6e8366496e374817cb6265e270b8d30ec10ba8fe91569123be410a6ea0a49795",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        42.30769348144531,
+        46.153846740722656,
+        100.0
+      ],
+      "components": 1
+    },
+    {
+      "stage": "orientation",
+      "file": "02-chair-target.stl",
+      "sha256": "8f3e152ba58903bc9d1d7ea26b39663a74eb9c1196aefb8962758a95f0217f21",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        68.75,
+        78.125,
+        100.0
+      ],
+      "components": 1
+    },
+    {
+      "stage": "orientation",
+      "file": "03-chair-target.stl",
+      "sha256": "4df239b419d5ac8459e80970dc911ac928bbb638775d0c0be95ef455ed16be0d",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        50.0,
+        50.0,
+        100.0
+      ],
+      "components": 1
+    },
+    {
+      "stage": "orientation",
+      "file": "04-table-target.stl",
+      "sha256": "9f58ebfd22751dbf6ea06de4f5d9700ca3d2e1ab003770f64d5594840713081d",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        100.0,
+        56.25
+      ],
+      "components": 1
+    },
+    {
+      "stage": "orientation",
+      "file": "05-table-target.stl",
+      "sha256": "b80f3024e98a26dc77794e7567637571c4c382933f820600facb651f3d04db5f",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        100.0,
+        53.125
+      ],
+      "components": 1
+    },
+    {
+      "stage": "orientation",
+      "file": "06-table-target.stl",
+      "sha256": "86a7eba1da874a776cd380bcd7c0abfbb702fa5be145b9c37182ac4c76dff2d8",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        100.0,
+        34.375
+      ],
+      "components": 1
+    },
+    {
+      "stage": "orientation",
+      "file": "07-table-target.stl",
+      "sha256": "93cdd99983d6089d9f47f4700cc5c7954fe6a535e0bb20928436aa536dc5a814",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        56.25,
+        43.75
+      ],
+      "components": 1
+    },
+    {
+      "stage": "reconstructions",
+      "file": "00-chair-0-target.stl",
+      "sha256": "9c903d8f2a96157eab22f77aae1ec9b7a75a5d09a6d42be3152c627fe6bc780d",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        71.875,
+        100.0,
+        78.125
+      ],
+      "components": 1
+    },
+    {
+      "stage": "reconstructions",
+      "file": "00-chair-1-reconstruction.stl",
+      "sha256": "39ea14911350bddb785aebb8276e5c0635216224703a7301259121df173d15d7",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        72.00927734375,
+        100.0,
+        81.25845336914062
+      ],
+      "components": 5
+    },
+    {
+      "stage": "reconstructions",
+      "file": "01-chair-0-target.stl",
+      "sha256": "6e8366496e374817cb6265e270b8d30ec10ba8fe91569123be410a6ea0a49795",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        42.30769348144531,
+        46.153846740722656,
+        100.0
+      ],
+      "components": 1
+    },
+    {
+      "stage": "reconstructions",
+      "file": "01-chair-1-reconstruction.stl",
+      "sha256": "8b50bf08f518f066d306f2d19ba8b7404fe2853e89128dd009bd17c4733e8d2f",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        75.91702270507812,
+        48.836463928222656,
+        100.0
+      ],
+      "components": 4
+    },
+    {
+      "stage": "reconstructions",
+      "file": "02-chair-0-target.stl",
+      "sha256": "8f3e152ba58903bc9d1d7ea26b39663a74eb9c1196aefb8962758a95f0217f21",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        68.75,
+        78.125,
+        100.0
+      ],
+      "components": 1
+    },
+    {
+      "stage": "reconstructions",
+      "file": "02-chair-1-reconstruction.stl",
+      "sha256": "2bd688202e7153b83420ffd560f306dc144e346b2e0a8c9fb46afc686ab55dd8",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        68.89418029785156,
+        78.1688003540039,
+        100.0
+      ],
+      "components": 1
+    },
+    {
+      "stage": "reconstructions",
+      "file": "03-chair-0-target.stl",
+      "sha256": "4df239b419d5ac8459e80970dc911ac928bbb638775d0c0be95ef455ed16be0d",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        50.0,
+        50.0,
+        100.0
+      ],
+      "components": 1
+    },
+    {
+      "stage": "reconstructions",
+      "file": "03-chair-1-reconstruction.stl",
+      "sha256": "94f37766d80d4285142f941729d799b34c8ba8cbae255b2def01d47bb25322d5",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        95.51483917236328,
+        50.30167770385742,
+        100.0
+      ],
+      "components": 3
+    },
+    {
+      "stage": "reconstructions",
+      "file": "04-table-0-target.stl",
+      "sha256": "9f58ebfd22751dbf6ea06de4f5d9700ca3d2e1ab003770f64d5594840713081d",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        100.0,
+        56.25
+      ],
+      "components": 1
+    },
+    {
+      "stage": "reconstructions",
+      "file": "04-table-1-reconstruction.stl",
+      "sha256": "4f68109770ecd67c239c12e37b882dc1bd21f1aa4791556d4d2625453efa013b",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        99.99748992919922,
+        100.0,
+        57.69917297363281
+      ],
+      "components": 3
+    },
+    {
+      "stage": "reconstructions",
+      "file": "05-table-0-target.stl",
+      "sha256": "b80f3024e98a26dc77794e7567637571c4c382933f820600facb651f3d04db5f",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        100.0,
+        53.125
+      ],
+      "components": 1
+    },
+    {
+      "stage": "reconstructions",
+      "file": "05-table-1-reconstruction.stl",
+      "sha256": "1c0e1968ad54d70fa743de33dff8d2840afdce7afc32407c186e8d995c52f5d8",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        99.98490905761719,
+        100.0,
+        80.38204193115234
+      ],
+      "components": 2
+    },
+    {
+      "stage": "reconstructions",
+      "file": "06-table-0-target.stl",
+      "sha256": "86a7eba1da874a776cd380bcd7c0abfbb702fa5be145b9c37182ac4c76dff2d8",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        100.0,
+        34.375
+      ],
+      "components": 1
+    },
+    {
+      "stage": "reconstructions",
+      "file": "06-table-1-reconstruction.stl",
+      "sha256": "438f5057d0a3423d45436092aec195d7b3705549daa0c593f514b874233ac4ac",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        99.97376251220703,
+        34.38178634643555
+      ],
+      "components": 1
+    },
+    {
+      "stage": "reconstructions",
+      "file": "07-table-0-target.stl",
+      "sha256": "93cdd99983d6089d9f47f4700cc5c7954fe6a535e0bb20928436aa536dc5a814",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        56.25,
+        43.75
+      ],
+      "components": 1
+    },
+    {
+      "stage": "reconstructions",
+      "file": "07-table-1-reconstruction.stl",
+      "sha256": "d2c1579d8ab848d13ddd84e109fcc9efb18952e57accb968b3069cd1f50049c0",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        56.33366775512695,
+        43.909873962402344
+      ],
+      "components": 1
+    },
+    {
+      "stage": "generated-best",
+      "file": "prompt-0-seed-42.stl",
+      "sha256": "b19bb332c2fb1de839422897e4110464bd8fcbcd62d4118cf7ae5e96aacc8141",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        99.9837646484375,
+        99.9792251586914
+      ],
+      "components": 19
+    },
+    {
+      "stage": "generated-best",
+      "file": "prompt-0-seed-43.stl",
+      "sha256": "d5d8751b6e6380a87509038ca6af57519fda086eeec80129b69b888139493675",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        99.9958267211914,
+        99.84252166748047,
+        100.0
+      ],
+      "components": 15
+    },
+    {
+      "stage": "generated-best",
+      "file": "prompt-0-seed-44.stl",
+      "sha256": "4b1d1104db44487256ba90d967cd30c7e2a2d8dd798a5bc300c296cfc63eb86b",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        99.97139739990234,
+        99.83043670654297,
+        100.0
+      ],
+      "components": 28
+    },
+    {
+      "stage": "generated-best",
+      "file": "prompt-1-seed-42.stl",
+      "sha256": "90b639ed2907cc99e43dd583a8d4f7643ee6aaf07e6b3477bf3ca20c5d7ee021",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        99.99546813964844,
+        99.96943664550781
+      ],
+      "components": 22
+    },
+    {
+      "stage": "generated-best",
+      "file": "prompt-1-seed-43.stl",
+      "sha256": "4666e63b5ed87b93f3aeb2440595ba02f16dfe6c0d06055f81a87ae643cd2ced",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        99.9705810546875,
+        99.67642974853516,
+        100.0
+      ],
+      "components": 12
+    },
+    {
+      "stage": "generated-best",
+      "file": "prompt-1-seed-44.stl",
+      "sha256": "f2b538d102cf0bbcb2293a8337e1513da0fe24a74b90ddcfa4e06c4cb719dc9b",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        99.7705307006836,
+        99.83422088623047,
+        100.0
+      ],
+      "components": 31
+    },
+    {
+      "stage": "generated-best",
+      "file": "prompt-2-seed-42.stl",
+      "sha256": "4f777878fde5cc1e1c7d47d0b0ed990a1f66ed6d6ea7008ee8beed1ecbb552a1",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        99.99203491210938,
+        99.96894073486328
+      ],
+      "components": 19
+    },
+    {
+      "stage": "generated-best",
+      "file": "prompt-2-seed-43.stl",
+      "sha256": "b6cdeaff5988b5f28666ea710ab213110b485286129cd48d45564426b6a4eb3f",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        99.38414764404297,
+        99.98631286621094
+      ],
+      "components": 10
+    },
+    {
+      "stage": "generated-best",
+      "file": "prompt-2-seed-44.stl",
+      "sha256": "a002649c3eebaeeb4eefc231fe2761e0b0e1f008e2bef2de21ef8960d000a508",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        99.99989318847656,
+        99.71868896484375,
+        100.0
+      ],
+      "components": 29
+    },
+    {
+      "stage": "generated-best",
+      "file": "prompt-3-seed-42.stl",
+      "sha256": "5112f3452b9bbc660a9a8233751865012403bd621a5cd0413def7d2f2765c2f4",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        99.92700958251953,
+        99.99983978271484
+      ],
+      "components": 23
+    },
+    {
+      "stage": "generated-best",
+      "file": "prompt-3-seed-43.stl",
+      "sha256": "30943dc257f0fdcb0e7ec6352a7694b35fa28b59e247cfb9b025852e2b2b57fd",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        99.99635314941406,
+        99.8577651977539,
+        100.0
+      ],
+      "components": 8
+    },
+    {
+      "stage": "generated-best",
+      "file": "prompt-3-seed-44.stl",
+      "sha256": "0419e5bdf4bdd378f91631b83ce9374ada906799e84fe7950686fec93f204a46",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        99.88279724121094,
+        99.96546936035156
+      ],
+      "components": 30
+    },
+    {
+      "stage": "generated-last",
+      "file": "prompt-0-seed-42.stl",
+      "sha256": "6ee214e853fae473b471d83976c601e2ff5b2ff98293e0682a154f35076644e3",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        99.98890686035156,
+        98.84982299804688
+      ],
+      "components": 17
+    },
+    {
+      "stage": "generated-last",
+      "file": "prompt-0-seed-43.stl",
+      "sha256": "b37b0aa53c64537ab303ef63e637e3892660ce4f50f47e58c24b52fcf0d83e37",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        99.5825424194336,
+        98.93497467041016,
+        100.0
+      ],
+      "components": 14
+    },
+    {
+      "stage": "generated-last",
+      "file": "prompt-0-seed-44.stl",
+      "sha256": "fac75d07f366bd11111ba707d7ce6b2915a71875bae2c86739edecf354d39441",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        92.24420166015625,
+        99.97105407714844,
+        100.0
+      ],
+      "components": 30
+    },
+    {
+      "stage": "generated-last",
+      "file": "prompt-1-seed-42.stl",
+      "sha256": "23dce16027d735ca7152d3e6951d27666bb435b9e42d3450c531ff6b5051c30e",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        99.97919464111328,
+        100.0,
+        99.5088882446289
+      ],
+      "components": 16
+    },
+    {
+      "stage": "generated-last",
+      "file": "prompt-1-seed-43.stl",
+      "sha256": "3fd377b18e66c004b0917a54cc843b26123ccb45c1e62c8e2ed5cbf10113bd30",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        98.78018951416016,
+        98.48686218261719,
+        100.0
+      ],
+      "components": 17
+    },
+    {
+      "stage": "generated-last",
+      "file": "prompt-1-seed-44.stl",
+      "sha256": "e75460ddb2c256398770b827248cbf30f8eb3e4daa2506cd348467b0387c10a8",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        94.61405181884766,
+        100.0,
+        99.89759063720703
+      ],
+      "components": 30
+    },
+    {
+      "stage": "generated-last",
+      "file": "prompt-2-seed-42.stl",
+      "sha256": "3acd6f41ffeec03ab37ad185b74d5a83a7aa750ca6f84bb0d7be381fb951e50d",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        99.99364471435547,
+        98.7074203491211
+      ],
+      "components": 13
+    },
+    {
+      "stage": "generated-last",
+      "file": "prompt-2-seed-43.stl",
+      "sha256": "01fdffa061e91f43fde9e999ca7c415a00bed9936c747d98eecdaea6bd1b4409",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        99.88617706298828,
+        97.59647369384766,
+        100.0
+      ],
+      "components": 18
+    },
+    {
+      "stage": "generated-last",
+      "file": "prompt-2-seed-44.stl",
+      "sha256": "f3780fff12ca38135cc08bb020ac1b010eb53ac5e40436b27f4ea63eae96b274",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        96.22181701660156,
+        100.0,
+        99.9312973022461
+      ],
+      "components": 26
+    },
+    {
+      "stage": "generated-last",
+      "file": "prompt-3-seed-42.stl",
+      "sha256": "0360f9eab5875dc8137fa83afc29baa5d5289a92c142a93aa9c9692a85997e1d",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        99.99500274658203,
+        99.10025787353516
+      ],
+      "components": 22
+    },
+    {
+      "stage": "generated-last",
+      "file": "prompt-3-seed-43.stl",
+      "sha256": "97cac642836b4210e2ea90e4df5e55326a78324156d3a49ef07c9392275042ff",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        99.87260437011719,
+        98.343505859375,
+        100.0
+      ],
+      "components": 13
+    },
+    {
+      "stage": "generated-last",
+      "file": "prompt-3-seed-44.stl",
+      "sha256": "94610992ca12742d5bd52374ac1e24d88479890428c6724498666b61661f0b2b",
+      "finite": true,
+      "watertight": true,
+      "extents_mm": [
+        100.0,
+        99.91722869873047,
+        99.92694854736328
+      ],
+      "components": 34
+    }
+  ],
+  "model_pairing_valid": true,
+  "frozen_vae_and_cache_unchanged": true,
+  "previous_selected_checkpoints_preserved": true,
+  "orientation_regression_tests": "3 passed",
+  "ui": {
+    "url": "http://127.0.0.1:7862",
+    "checkpoint": "runs\\text2shape-pilot-diffusion-v1\\best.pt",
+    "exact_chair_prompt_seed_42": "preview and STL returned through Gradio API"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "sessions": [
+    {
+      "step": 1000,
+      "epoch": 5,
+      "interrupted": false,
+      "session_seconds": 20.81299999996554,
+      "peak_allocated_gib": 0.08269882202148438,
+      "validation": {
+        "iou": 0.6377497577667236,
+        "bce": 0.10454949736595154
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-vae-v1\\last.pt"
+    },
+    {
+      "step": 2000,
+      "epoch": 10,
+      "interrupted": false,
+      "session_seconds": 20.54599999997299,
+      "peak_allocated_gib": 0.08269882202148438,
+      "validation": {
+        "iou": 0.7172611045837403,
+        "bce": 0.07969804748892784
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-vae-v1\\last.pt"
+    },
+    {
+      "step": 3000,
+      "epoch": 15,
+      "interrupted": false,
+      "session_seconds": 22.64000000001397,
+      "peak_allocated_gib": 0.08269882202148438,
+      "validation": {
+        "iou": 0.7433077096939087,
+        "bce": 0.07949608981609345
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-vae-v1\\last.pt"
+    },
+    {
+      "step": 4000,
+      "epoch": 20,
+      "interrupted": false,
+      "session_seconds": 23.359000000054948,
+      "peak_allocated_gib": 0.08269882202148438,
+      "validation": {
+        "iou": 0.7643211579322815,
+        "bce": 0.07734267711639405
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-vae-v1\\last.pt"
+    },
+    {
+      "step": 5000,
+      "epoch": 25,
+      "interrupted": false,
+      "session_seconds": 23.140999999945052,
+      "peak_allocated_gib": 0.08269882202148438,
+      "validation": {
+        "iou": 0.7732161784172058,
+        "bce": 0.08020254865288734
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-vae-v1\\last.pt"
+    },
+    {
+      "step": 6000,
+      "epoch": 30,
+      "interrupted": false,
+      "session_seconds": 20.65700000000652,
+      "peak_allocated_gib": 0.08269882202148438,
+      "validation": {
+        "iou": 0.7768913865089416,
+        "bce": 0.08240348488092422
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-vae-v1\\last.pt"
+    },
+    {
+      "step": 7000,
+      "epoch": 35,
+      "interrupted": false,
+      "session_seconds": 19.42099999997299,
+      "peak_allocated_gib": 0.08269882202148438,
+      "validation": {
+        "iou": 0.7803214240074158,
+        "bce": 0.08744906097650527
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-vae-v1\\last.pt"
+    },
+    {
+      "step": 8000,
+      "epoch": 40,
+      "interrupted": false,
+      "session_seconds": 19.984000000054948,
+      "peak_allocated_gib": 0.08269882202148438,
+      "validation": {
+        "iou": 0.7820122623443604,
+        "bce": 0.08962829127907752
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-vae-v1\\last.pt"
+    },
+    {
+      "step": 9000,
+      "epoch": 45,
+      "interrupted": false,
+      "session_seconds": 18.438000000081956,
+      "peak_allocated_gib": 0.08269882202148438,
+      "validation": {
+        "iou": 0.7815863633155823,
+        "bce": 0.09448110580444335
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-vae-v1\\last.pt"
+    },
+    {
+      "step": 10000,
+      "epoch": 50,
+      "interrupted": false,
+      "session_seconds": 18.391000000061467,
+      "peak_allocated_gib": 0.08269882202148438,
+      "validation": {
+        "iou": 0.7841601753234864,
+        "bce": 0.1001771903038025
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-vae-v1\\last.pt"
+    }
+  ],
+  "training_budget_seconds": 1800,
+  "training_seconds": 207.39000000013039,
+  "stopping_reason": "validation_plateau_10_epochs",
+  "selected_checkpoint": "runs\\text2shape-pilot-vae-v1\\best.pt",
+  "selected_sha256": "3ca72f7237a975bd77df6ae9faa2857600c8797eb7a4e9dcf2a157c46f49c72d"
+}

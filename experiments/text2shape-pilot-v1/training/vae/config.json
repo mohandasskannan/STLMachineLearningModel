@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "batch_size": 8,
+  "learning_rate": 0.0002,
+  "epochs": 50,
+  "max_hours": 0.44750027777775864,
+  "max_steps": 0,
+  "checkpoint_every": 100,
+  "latent_dim": 256,
+  "diffusion_steps": 200,
+  "kl_weight": 0.001,
+  "kl_warmup_steps": 1000,
+  "limit": 0,
+  "kind": "vae",
+  "device": "cuda",
+  "source": "E:\\STLModelData\\text2shape-v1\\prepared\\manifest.json",
+  "source_sha256": "be64c75c5f1823f70472cad4fcb1706290180bd6a15343addde3ffd4c8a7e92e"
+}

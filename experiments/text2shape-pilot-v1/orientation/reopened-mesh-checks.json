@@ -1,0 +1,90 @@
+[
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\orientation\\00-chair-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      71.875,
+      100.0,
+      78.125
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\orientation\\01-chair-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      42.30769348144531,
+      46.153846740722656,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\orientation\\02-chair-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      68.75,
+      78.125,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\orientation\\03-chair-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      50.0,
+      50.0,
+      100.0
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\orientation\\04-table-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      100.0,
+      100.0,
+      56.25
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\orientation\\05-table-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      100.0,
+      100.0,
+      53.125
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\orientation\\06-table-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      100.0,
+      100.0,
+      34.375
+    ]
+  },
+  {
+    "path": "E:\\STLModelData\\text2shape-v1\\review\\orientation\\07-table-target.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 1,
+    "extents_mm": [
+      100.0,
+      56.25,
+      43.75
+    ]
+  }
+]

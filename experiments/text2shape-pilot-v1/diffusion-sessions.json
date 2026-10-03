@@ -1,0 +1,334 @@
+{
+  "sessions": [
+    {
+      "step": 630,
+      "epoch": 5,
+      "interrupted": false,
+      "session_seconds": 4.968999999924563,
+      "peak_allocated_gib": 0.04593801498413086,
+      "validation": {
+        "noise_mse": 0.4956261151963407,
+        "shuffled_text_mse": 0.4967341759541371,
+        "conditioning_gap": 0.001108060757796403
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 1260,
+      "epoch": 10,
+      "interrupted": false,
+      "session_seconds": 5.157000000006519,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.4282198233587725,
+        "shuffled_text_mse": 0.429924395229962,
+        "conditioning_gap": 0.0017045718711894975
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 1890,
+      "epoch": 15,
+      "interrupted": false,
+      "session_seconds": 5.937000000034459,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.4067646368249162,
+        "shuffled_text_mse": 0.4090392188028292,
+        "conditioning_gap": 0.0022745819779129706
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 2520,
+      "epoch": 20,
+      "interrupted": false,
+      "session_seconds": 6.045999999972992,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.39415982753426226,
+        "shuffled_text_mse": 0.39681803320979214,
+        "conditioning_gap": 0.002658205675529879
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 3150,
+      "epoch": 25,
+      "interrupted": false,
+      "session_seconds": 5.187000000034459,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.3830793056640778,
+        "shuffled_text_mse": 0.38597887309941203,
+        "conditioning_gap": 0.0028995674353342604
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 3780,
+      "epoch": 30,
+      "interrupted": false,
+      "session_seconds": 5.25,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.3716423333705486,
+        "shuffled_text_mse": 0.374742259432723,
+        "conditioning_gap": 0.0030999260621744074
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 4410,
+      "epoch": 35,
+      "interrupted": false,
+      "session_seconds": 6.421999999904074,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.3632785528450757,
+        "shuffled_text_mse": 0.36658841804102493,
+        "conditioning_gap": 0.0033098651959492242
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 5040,
+      "epoch": 40,
+      "interrupted": false,
+      "session_seconds": 5.125,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.3577670283742376,
+        "shuffled_text_mse": 0.3614169039108135,
+        "conditioning_gap": 0.0036498755365759195
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 5670,
+      "epoch": 45,
+      "interrupted": false,
+      "session_seconds": 6.327999999979511,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.3512314828308495,
+        "shuffled_text_mse": 0.35521594957785085,
+        "conditioning_gap": 0.0039844667470013695
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 6300,
+      "epoch": 50,
+      "interrupted": false,
+      "session_seconds": 6.187000000034459,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.3454686551242023,
+        "shuffled_text_mse": 0.3499077450823378,
+        "conditioning_gap": 0.0044390899581355225
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 6930,
+      "epoch": 55,
+      "interrupted": false,
+      "session_seconds": 5.657000000006519,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.34253209366932047,
+        "shuffled_text_mse": 0.346984905553413,
+        "conditioning_gap": 0.004452811884092522
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 7560,
+      "epoch": 60,
+      "interrupted": false,
+      "session_seconds": 5.515999999945052,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.3393139439719814,
+        "shuffled_text_mse": 0.34429912494348214,
+        "conditioning_gap": 0.004985180971500747
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 8190,
+      "epoch": 65,
+      "interrupted": false,
+      "session_seconds": 5.234000000054948,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.33576860194568997,
+        "shuffled_text_mse": 0.3412163274901527,
+        "conditioning_gap": 0.0054477255444627115
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 8820,
+      "epoch": 70,
+      "interrupted": false,
+      "session_seconds": 4.827999999979511,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.33523634663811913,
+        "shuffled_text_mse": 0.340753844162604,
+        "conditioning_gap": 0.005517497524484882
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 9450,
+      "epoch": 75,
+      "interrupted": false,
+      "session_seconds": 5.172000000020489,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.33066659527378633,
+        "shuffled_text_mse": 0.33632369687010694,
+        "conditioning_gap": 0.005657101596320602
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 10080,
+      "epoch": 80,
+      "interrupted": false,
+      "session_seconds": 5.187999999965541,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.32824384626206216,
+        "shuffled_text_mse": 0.3343016133234427,
+        "conditioning_gap": 0.006057767061380559
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 10710,
+      "epoch": 85,
+      "interrupted": false,
+      "session_seconds": 4.907000000006519,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.328407171729568,
+        "shuffled_text_mse": 0.3346906329418446,
+        "conditioning_gap": 0.006283461212276575
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 11340,
+      "epoch": 90,
+      "interrupted": false,
+      "session_seconds": 5.297000000020489,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.32773676616054875,
+        "shuffled_text_mse": 0.3342285476945661,
+        "conditioning_gap": 0.00649178153401736
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 11970,
+      "epoch": 95,
+      "interrupted": false,
+      "session_seconds": 4.75,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.3232777859116937,
+        "shuffled_text_mse": 0.32977804493856383,
+        "conditioning_gap": 0.0065002590268701255
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 12600,
+      "epoch": 100,
+      "interrupted": false,
+      "session_seconds": 4.719000000040978,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.3262109274978752,
+        "shuffled_text_mse": 0.3328593738145895,
+        "conditioning_gap": 0.006648446316714296
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 13230,
+      "epoch": 105,
+      "interrupted": false,
+      "session_seconds": 4.98499999998603,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.324158942556238,
+        "shuffled_text_mse": 0.3310721833724995,
+        "conditioning_gap": 0.00691324081626149
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 13860,
+      "epoch": 110,
+      "interrupted": false,
+      "session_seconds": 4.85999999998603,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.3238434821397096,
+        "shuffled_text_mse": 0.33083416830312024,
+        "conditioning_gap": 0.006990686163410642
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 14490,
+      "epoch": 115,
+      "interrupted": false,
+      "session_seconds": 4.702999999979511,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.3187893996307919,
+        "shuffled_text_mse": 0.32589255665634964,
+        "conditioning_gap": 0.007103157025557749
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 15120,
+      "epoch": 120,
+      "interrupted": false,
+      "session_seconds": 4.688000000081956,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.32059283520247006,
+        "shuffled_text_mse": 0.32769198562051205,
+        "conditioning_gap": 0.007099150418041988
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    },
+    {
+      "step": 15750,
+      "epoch": 125,
+      "interrupted": false,
+      "session_seconds": 4.686999999918044,
+      "peak_allocated_gib": 0.04496145248413086,
+      "validation": {
+        "noise_mse": 0.3193039572513378,
+        "shuffled_text_mse": 0.3265932380437135,
+        "conditioning_gap": 0.007289280792375674
+      },
+      "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+    }
+  ],
+  "training_budget_seconds": 1800,
+  "training_seconds": 131.79899999988265,
+  "stopping_reason": "validation_plateau_10_epochs",
+  "selected_checkpoint": "runs\\text2shape-pilot-diffusion-v1\\best.pt",
+  "selected_sha256": "338a5e5bb34cf15b22fb7c34e4dd487fc39e5a8815be096494df2fbdae091732"
+}

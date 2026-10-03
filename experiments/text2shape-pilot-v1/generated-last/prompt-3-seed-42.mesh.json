@@ -1,0 +1,18 @@
+{
+  "path": "E:\\STLModelData\\text2shape-v1\\review\\generated-last\\prompt-3-seed-42.stl",
+  "units": "mm (interpret STL coordinates as millimeters)",
+  "extents_mm": [
+    100.0,
+    99.99500322560729,
+    99.10025781016364
+  ],
+  "vertices": 7296,
+  "faces": 14548,
+  "components": 22,
+  "watertight": true,
+  "warnings": [
+    "Geometry touches the grid boundary; the exterior is capped for export.",
+    "22 disconnected components; all have been preserved.",
+    "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+  ]
+}

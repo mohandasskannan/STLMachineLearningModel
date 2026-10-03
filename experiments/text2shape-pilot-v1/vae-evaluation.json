@@ -1,0 +1,424 @@
+{
+  "checkpoint": "runs\\text2shape-pilot-vae-v1\\best.pt",
+  "sha256": "3ca72f7237a975bd77df6ae9faa2857600c8797eb7a4e9dcf2a157c46f49c72d",
+  "step": 7200,
+  "epoch": 36,
+  "metrics": {
+    "val": {
+      "iou": 0.784570107460022,
+      "bce": 0.0864018028974533
+    },
+    "test": {
+      "iou": 0.7580622339248657,
+      "bce": 0.08290496900677681
+    }
+  },
+  "iou_gate_passed": true,
+  "visual_gate": "passed",
+  "objects": [
+    {
+      "id": "1013f70851210a618f2e765c4a8ed3d",
+      "category": "chair",
+      "captions": [
+        "This is a metal chair.  It is low to the ground and has a curved back and curvy legs.",
+        "Outdoor white modern style reclining chair",
+        "This chair is silver in color, shaped like a lobby chair, made of metal, and seems to be constructed of one piece of metal.",
+        "white chair with horizontal openings on the back of chair.",
+        "a plastic post modern chair with a rounded shap andlegs"
+      ],
+      "target": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\00-chair-0-target.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          71.875,
+          100.0,
+          78.125
+        ],
+        "vertices": 4732,
+        "faces": 9492,
+        "components": 1,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "reconstruction": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\00-chair-1-reconstruction.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          72.00927380137364,
+          100.0,
+          81.25845443206573
+        ],
+        "vertices": 4545,
+        "faces": 9102,
+        "components": 5,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "5 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "visual_review": {
+        "recognizable": true,
+        "notes": "Recognizable reclining chair with arms; interrupted back slats and side supports."
+      }
+    },
+    {
+      "id": "116a9cd5ac9a008ee8cb931b01d0a372",
+      "category": "chair",
+      "captions": [
+        "This is a high straight back chair made of wood.  It has four thick , pillar legs, and open arms with a padded seat and back.",
+        "A massive chair with sharp corners, brown with lighter seat and back",
+        "BROWN COLORED WOODEN CHAIR WITH ARM REST AND CUSHION ON BACK.",
+        "The formal brown wood finished chair is the best option for a conference room.",
+        "Old conventional brown wooden chair with armrest and four legs"
+      ],
+      "target": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\01-chair-0-target.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          42.30769230769231,
+          46.15384615384616,
+          100.0
+        ],
+        "vertices": 1758,
+        "faces": 3520,
+        "components": 1,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "reconstruction": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\01-chair-1-reconstruction.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          75.91701903175715,
+          48.836462304162936,
+          99.99999999999999
+        ],
+        "vertices": 1652,
+        "faces": 3300,
+        "components": 4,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "4 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "visual_review": {
+        "recognizable": true,
+        "notes": "Recognizable tall-back chair; narrowed distorted seat, rough legs and missing arm detail."
+      }
+    },
+    {
+      "id": "11e6e58798ae5be83e5b5dbd84cdd0f8",
+      "category": "chair",
+      "captions": [
+        "Look like a movie theather chair with two wooden brown legs and armrests and the body is teal blue colored",
+        "BLUE COLOR CUSHION CHAIR WITH BACK SUPPORT AND HANDLE SUPPORT WITH TWO LEGS",
+        "An aqua colored chair with two brown legs and brown semi-circle arm rests with a dark brown head rest attached to it.",
+        "it is a forest green upholstered chair with wooden legs and accents. very low to the ground with a high back.",
+        "chair made of wood and leather, seat fitted with leather, it is in grey and brown color."
+      ],
+      "target": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\02-chair-0-target.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          68.75,
+          78.125,
+          100.0
+        ],
+        "vertices": 3568,
+        "faces": 7132,
+        "components": 1,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "reconstruction": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\02-chair-1-reconstruction.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          68.89417768383132,
+          78.16879948707214,
+          99.99999999999999
+        ],
+        "vertices": 3560,
+        "faces": 7116,
+        "components": 1,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "visual_review": {
+        "recognizable": true,
+        "notes": "Recognizable upholstered armchair; back lattice filled in and rough lower supports."
+      }
+    },
+    {
+      "id": "1803116582841b39a8ecfcf20e8cc0a",
+      "category": "chair",
+      "captions": [
+        "a wooden rustic dining chair with a splat back and turned legs",
+        "An arm-less wooden chair which has square shaped seat and has a back where there are two long somewhat rectangular like spaces and has four legs which has slight bulged curve in middle of all the legs and also there is a light ash color is visible in the joining end of the all the four legs and the seat.",
+        "a wooden brown chair with hollow seat and four legs",
+        "Coffee-colored wooden chair, the back has two holes, one on the left and one on the right, on the top of the back has a design with three curves, the legs have a round design in the middle, the two hind legs Are joined by a crossbar, the two legs on the right are joined by a crossbar and equally the legs on the left",
+        "a wooden brown chair with cutouts in the back."
+      ],
+      "target": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\03-chair-0-target.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          50.0,
+          50.0,
+          100.0
+        ],
+        "vertices": 2160,
+        "faces": 4340,
+        "components": 1,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "reconstruction": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\03-chair-1-reconstruction.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          95.51483869176714,
+          50.30167592050462,
+          100.0
+        ],
+        "vertices": 2240,
+        "faces": 4480,
+        "components": 3,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "3 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "visual_review": {
+        "recognizable": true,
+        "notes": "Recognizable dining chair; seat retained, distorted under-seat braces and back openings lost."
+      }
+    },
+    {
+      "id": "10c0eecb17d1bac64b3c42e318f3affc",
+      "category": "table",
+      "captions": [
+        "It's a natural color wooden table.  The top is round, with the base of the table in the center, leading down to four curved legs.",
+        "A round wooden table with round center post supported by 4 curved feet at the base.",
+        "A round dinner table with four ornate \"feet\", all made from the same cool-toned grayish wood",
+        "Round Wooden Side table brown colour"
+      ],
+      "target": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\04-table-0-target.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          100.0,
+          100.0,
+          56.25
+        ],
+        "vertices": 2856,
+        "faces": 5708,
+        "components": 1,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "reconstruction": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\04-table-1-reconstruction.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          99.99748703008748,
+          100.0,
+          57.69917485475254
+        ],
+        "vertices": 2900,
+        "faces": 5788,
+        "components": 3,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "3 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "visual_review": {
+        "recognizable": true,
+        "notes": "Recognizable round pedestal table; disconnected feet and rough central support."
+      }
+    },
+    {
+      "id": "1469f244a1968345e2d95336601deece",
+      "category": "table",
+      "captions": [
+        "a square table with glass at the center andwith four legs",
+        "A square classic and wooden table with glass in the middle",
+        "A brown, square table has a clear center and a middle shelf.",
+        "a brown colored, wooden coffee table. four legs with square plain glass top with wooden boundry.",
+        "small wooden table"
+      ],
+      "target": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\05-table-0-target.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          100.0,
+          100.0,
+          53.125
+        ],
+        "vertices": 4866,
+        "faces": 9740,
+        "components": 1,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "reconstruction": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\05-table-1-reconstruction.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          99.98490824406866,
+          100.0,
+          80.38204544127748
+        ],
+        "vertices": 5384,
+        "faces": 10832,
+        "components": 2,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "2 disconnected components; all have been preserved.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "visual_review": {
+        "recognizable": true,
+        "notes": "Recognizable rectangular table; top and four legs retained, distorted apron."
+      }
+    },
+    {
+      "id": "166cb38606acc1834265eb8d6103818",
+      "category": "table",
+      "captions": [
+        "A round center table red and white in color",
+        "Round table with red and black trim with two half circle legs.",
+        "A table with a red center patterned outline.  The legs for this table are curved and unique.",
+        "A table with two supporting big legs and having a circular red appearance in  the middle. No glass, only wood and decoration..."
+      ],
+      "target": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\06-table-0-target.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          100.0,
+          100.0,
+          34.375
+        ],
+        "vertices": 3000,
+        "faces": 5996,
+        "components": 1,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "reconstruction": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\06-table-1-reconstruction.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          100.0,
+          99.97376615818683,
+          34.38178684418891
+        ],
+        "vertices": 3470,
+        "faces": 6948,
+        "components": 1,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "visual_review": {
+        "recognizable": true,
+        "notes": "Recognizable low round pedestal table; top retained with rough bulky base."
+      }
+    },
+    {
+      "id": "192812aa4ad73d2fe6c5cd45aa112726",
+      "category": "table",
+      "captions": [
+        "it is dark brown in color, rectangle in shape with four legs, material used is solid wood and appearance looks like normal dining table.",
+        "Dark brown rectangular center table with four legs, one on all the sides.",
+        "a rectangular table that is made from wood and has four legs.",
+        "Long table with red around body . Shape rectangle and materials from wood.",
+        "THIS TABLE IS A RECTANGULAR SHAPE AND ITS A MEROWN COLOR"
+      ],
+      "target": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\07-table-0-target.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          100.0,
+          56.25,
+          43.75
+        ],
+        "vertices": 1784,
+        "faces": 3564,
+        "components": 1,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "reconstruction": {
+        "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\07-table-1-reconstruction.stl",
+        "units": "mm (interpret STL coordinates as millimeters)",
+        "extents_mm": [
+          100.0,
+          56.33366690021943,
+          43.90987249694846
+        ],
+        "vertices": 1804,
+        "faces": 3604,
+        "components": 1,
+        "watertight": true,
+        "warnings": [
+          "Geometry touches the grid boundary; the exterior is capped for export.",
+          "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+        ]
+      },
+      "visual_review": {
+        "recognizable": true,
+        "notes": "Recognizable rectangular table; top and four legs retained with rounded edges."
+      }
+    }
+  ],
+  "visual_gate_counts": {
+    "chair": 4,
+    "table": 4
+  },
+  "visual_gate_requirement": {
+    "minimum_recognizable_per_category": 3,
+    "reviewed_per_category": 4,
+    "minimum_validation_iou": 0.5
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "batch_size": 64,
+  "learning_rate": 0.0002,
+  "epochs": 125,
+  "max_hours": 0.46469111111112094,
+  "max_steps": 0,
+  "checkpoint_every": 100,
+  "latent_dim": 256,
+  "diffusion_steps": 200,
+  "kl_weight": 0.001,
+  "kl_warmup_steps": 1000,
+  "limit": 0,
+  "kind": "diffusion",
+  "device": "cuda",
+  "source": "E:\\STLModelData\\text2shape-v1\\embeddings.pt",
+  "source_sha256": "099380612172cbcbf069c8bd13ea740b606d480b3d6356772fc7e0c896695dff"
+}

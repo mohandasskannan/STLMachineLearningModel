@@ -1,0 +1,18 @@
+{
+  "path": "E:\\STLModelData\\text2shape-v1\\review\\reconstructions\\00-chair-1-reconstruction.stl",
+  "units": "mm (interpret STL coordinates as millimeters)",
+  "extents_mm": [
+    72.00927380137364,
+    100.0,
+    81.25845443206573
+  ],
+  "vertices": 4545,
+  "faces": 9102,
+  "components": 5,
+  "watertight": true,
+  "warnings": [
+    "Geometry touches the grid boundary; the exterior is capped for export.",
+    "5 disconnected components; all have been preserved.",
+    "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "step": 15750,
+  "epoch": 125,
+  "interrupted": false,
+  "session_seconds": 4.686999999918044,
+  "peak_allocated_gib": 0.04496145248413086,
+  "validation": {
+    "noise_mse": 0.3193039572513378,
+    "shuffled_text_mse": 0.3265932380437135,
+    "conditioning_gap": 0.007289280792375674
+  },
+  "checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\last.pt"
+}

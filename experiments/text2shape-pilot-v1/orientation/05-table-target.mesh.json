@@ -1,0 +1,17 @@
+{
+  "path": "E:\\STLModelData\\text2shape-v1\\review\\orientation\\05-table-target.stl",
+  "units": "mm (interpret STL coordinates as millimeters)",
+  "extents_mm": [
+    100.0,
+    100.0,
+    53.125
+  ],
+  "vertices": 4866,
+  "faces": 9740,
+  "components": 1,
+  "watertight": true,
+  "warnings": [
+    "Geometry touches the grid boundary; the exterior is capped for export.",
+    "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+  ]
+}

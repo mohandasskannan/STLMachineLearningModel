@@ -1,0 +1,8 @@
+{
+  "cache": "E:\\STLModelData\\text2shape-v1\\embeddings.pt",
+  "examples": {
+    "train": 8015,
+    "val": 999,
+    "test": 993
+  }
+}

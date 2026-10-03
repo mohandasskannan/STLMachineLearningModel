@@ -80,7 +80,7 @@ uv pip install --python .venv/Scripts/python.exe -e . --no-deps
 
 ### Data preparation
 
-Download the caption CSV and **solid 32-resolution** NRRD archive from the Text2Shape project after reviewing the dataset terms, and extract the archive under `data/raw/voxels`. The importer does not download data, accept license terms, or silently skip missing/broken examples.
+For Text2Shape, use the pilot workflow below to download the caption CSV and **solid 32-resolution** NRRD archive, audit objects, and normalize their axes. The generic importer accepts a compatible caption CSV and already-normalized voxels; it does not download data, accept license terms, or silently skip missing/broken examples.
 
 ```powershell
 & $projectPython -m stlmodel prepare --captions data/raw/captions.tablechair.csv --voxels data/raw/voxels --out data/prepared
@@ -89,6 +89,8 @@ Download the caption CSV and **solid 32-resolution** NRRD archive from the Text2
 The CSV must contain `modelId`, `description`, and `category`; `model_id`/`object_id` and `caption`/`text` are accepted aliases. Multiple captions are grouped under one object ID. File discovery supports `<modelId>.nrrd` and NRRD files inside a `<modelId>` directory. Ambiguous matches fail explicitly. An optional `voxel_path` column specifies a path relative to the CSV. Local binary `.npy` arrays and `.npz` files with an `occupancy` key are also supported.
 
 NRRD alpha defines occupancy, so opaque black voxels remain geometry and transparent colored voxels do not. Color is discarded. Input must already be 32-cubed; there is no implicit resampling or independent axis stretching. Source grids are treated as XYZ with Y up; export rotates them to Z up. Check orientation on real imported examples before a long run.
+
+Text2Shape NRRDs store spatial axes in **Y, Z, X** order, as recorded in their `space directions` headers. The Text2Shape pilot driver reorders them to world XYZ before using this importer. For downloaded Text2Shape data, use the pilot workflow below; the generic `prepare` command expects grids already normalized to XYZ with Y up.
 
 Preparation creates compressed occupancy files and `manifest.json`, with object IDs, captions, categories, file hashes, and deterministic category-stratified splits (approximately 80/10/10; at least one validation/test object per category). At least three objects per category are required. A nonempty output directory is rejected to prevent accidental dataset replacement. `--limit-per-category 100` prepares a smaller pilot dataset.
 
@@ -175,9 +177,10 @@ The tests use an explicitly injected offline text-encoder double where appropria
 - Diffusion initially trained for **166.204 seconds**, then resumed for **3,600.219 seconds (one additional hour)** on the GTX 1660 Ti. The extension added **86,876 steps**, reaching **89,876 total**. A second **3,600.063-second** session on October 3 added **74,202 steps**, reaching **164,078 total**. The validation-selected checkpoint remains step **5,542**; no subsequent step improved that score, and later training overfit the fixture. The VAE, cached embeddings, architecture, learning rate, and splits remained fixed.
 - The exact prompt **`A chair with a tall back and armrests`** and three chair/table controls were tested with seeds **42, 43, and 44**. All 36 before/selected/final STL exports reopened with finite coordinates, watertight surfaces, and a 100 mm longest dimension. They remain severely fragmented. The selected extended checkpoint has **37–174 disconnected components** across its 12 samples; the final full-hour state has **9–123**, with some clearer category differences but broken geometry. Tall/short-back control is not supported by this fixture's captions.
 - The second-hour final state worsened validation noise MSE to **1.831380** and test noise MSE to **1.011875**. Its 12 matched-seed samples have **16?101 disconnected components**, all require boundary caps, and the exact chair prompt has **82 / 57 / 84 components** for seeds 42 / 43 / 44. All 36 new comparison exports reopened with finite coordinates, watertight surfaces, and a 100 mm longest dimension. Chairs remain fragmented and table prompts gained unwanted upright features.
-- No Text2Shape training run has been performed. No browser was connected for visual UI inspection, and no slicer/physical-print validation was performed. Local application routes and callbacks were tested programmatically.
+- A fresh **Text2Shape pilot** now uses **2,000 real objects and 10,007 captions**, with downloads, prepared data, and embeddings on **E:**. The selected VAE achieved **0.784570 validation IoU / 0.758062 test IoU** on 200 objects per split. Diffusion achieved **0.318789 validation noise MSE / 0.319103 test noise MSE**. These results are separate from the procedural fixture below. Both stages stopped early on validation plateaus; generated furniture remains defective.
+- No browser was connected for visual UI inspection, and no slicer/physical-print validation was performed. Local application routes and callbacks were tested programmatically, including the Text2Shape interface on port **7862**.
 
-The current diffusion metrics are:
+The historical procedural diffusion metrics are:
 
 | Checkpoint | Validation noise MSE | Validation conditioning gap | Test noise MSE | Test conditioning gap |
 | --- | ---: | ---: | ---: | ---: |
@@ -206,7 +209,42 @@ To inspect the newest final state, stop the existing server with Ctrl+C and rest
 
 The current server keeps its loaded weights until restarted. If port 7860 is occupied, stop that server or add `--port 7861`. The newest `last.pt` has worse held-out metrics and fragmented geometry; `runs/procedural-diffusion-extended-v2/best.pt` is identical to the earlier recommended best.
 
-The ignored datasets, checkpoints, and STL binaries remain local; a GitHub clone alone does not include the trained weights. These are small procedural engineering experiments, not a useful general-purpose model or evidence of Text2Shape performance.
+The ignored datasets, checkpoints, and STL binaries remain local; a GitHub clone alone does not include the trained weights. The procedural runs remain engineering experiments. The separate Text2Shape pilot below measures reconstruction and generation on real furniture; its generated meshes also remain defective.
+
+### Text2Shape pilot on E: ? October 3, 2026
+
+A balanced sample of **1,000 chairs and 1,000 tables** is prepared under `E:\STLModelData\text2shape-v1`. All captions for an object stay in its split: **1,600 train / 200 validation / 200 test objects**, with **8,015 / 999 / 993 caption pairs**. The source audit excluded nine unusable objects and 227 exact duplicate grids. Geometry duplicates do not cross splits.
+
+The driver's NRRD normalization uses `space directions` to reorder Text2Shape storage axes **Y, Z, X ? X, Y, Z**. Without this correction, target meshes exported sideways. Preparation, downloads, and cached embeddings stay on E:; fresh checkpoints stay in `runs/`. Existing procedural checkpoints and servers are preserved.
+
+| Selected model | Validation | Test |
+| --- | ---: | ---: |
+| VAE voxel IoU | **0.784570** | **0.758062** |
+| Diffusion noise MSE | **0.318789** | **0.319103** |
+| Diffusion conditioning gap | 0.007103 | 0.006968 |
+
+VAE training took **207.390 seconds** and stopped at epoch 50, selecting epoch 36. Diffusion training took **131.799 seconds** and stopped at epoch 125, selecting epoch 115. Both stopped at a chunk boundary after ten validation epochs without improvement, using **5.65 minutes of measured training** within the one-hour allowance. Download, preparation, caching, interpreter startup, and final evaluation are additional time.
+
+All eight reviewed reconstructions remain recognizable chairs/tables, with broken supports or lost details in some examples. Generation remains severely fragmented: the selected model's 12 samples have **8?31 components**, and your exact chair prompt has **19 / 15 / 28 components** at seeds 42 / 43 / 44. Prompt changes affect geometry, but do not reliably control armrests or furniture category. All 48 orientation, reconstruction, and generation exports reopened with finite coordinates, watertight surfaces, and the requested scale. This does not establish printability.
+
+See the [Text2Shape report](experiments/text2shape-pilot-v1/report.md), [reconstruction preview](experiments/text2shape-pilot-v1/reconstructions/preview.png), and [selected generation preview](experiments/text2shape-pilot-v1/generated-best/preview.png). The old procedural IoU of 0.89 is not directly comparable with these real-furniture results.
+
+The selected Text2Shape model uses port **7862**:
+
+```powershell
+.\.venv\Scripts\python.exe -m stlmodel serve --vae runs/text2shape-pilot-vae-v1/best.pt --diffusion runs/text2shape-pilot-diffusion-v1/best.pt --out E:/STLModelData/text2shape-v1/review/ui --device cuda --port 7862
+```
+
+Open **http://127.0.0.1:7862**. If already running, open the URL directly; stop that server with Ctrl+C before restarting on the same port. Both selected checkpoint files are needed and remain local.
+
+To prepare a fresh pilot and train its VAE in the documented environment:
+
+```powershell
+.\.venv\Scripts\python.exe experiments/text2shape-pilot-v1/run_pilot.py prepare
+.\.venv\Scripts\python.exe experiments/text2shape-pilot-v1/run_pilot.py vae
+```
+
+The driver refuses to overwrite prepared data. Review reconstructions and record the passing visual gate before running its `diffusion` stage; the [report](experiments/text2shape-pilot-v1/report.md) documents that review and the stage budget ledger. Complete data, weights, and exports remain outside Git.
 
 First Run
 

@@ -1,0 +1,11 @@
+{
+  "vae_sha256": "3ca72f7237a975bd77df6ae9faa2857600c8797eb7a4e9dcf2a157c46f49c72d",
+  "diffusion_sha256": "338a5e5bb34cf15b22fb7c34e4dd487fc39e5a8815be096494df2fbdae091732",
+  "text_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "text_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "prompt": "a chair with armrests",
+  "seed": 42,
+  "size_mm": 100,
+  "sampling_steps": 50,
+  "threshold": 0.5
+}

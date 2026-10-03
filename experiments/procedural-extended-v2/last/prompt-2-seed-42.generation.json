@@ -1,0 +1,11 @@
+{
+  "vae_sha256": "388c5d9a50d50d9c35f99ec761c9ccdf5371a80f534808c9b00a21728a028dc9",
+  "diffusion_sha256": "245961fa89264ab6ff4d1ad321a1ee2c81552b182b56215f18e3900eb29d98f2",
+  "text_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "text_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "prompt": "a chair without armrests",
+  "seed": 42,
+  "sampling_steps": 50,
+  "threshold": 0.5,
+  "size_mm": 100
+}

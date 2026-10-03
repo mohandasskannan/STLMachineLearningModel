@@ -1,0 +1,18 @@
+{
+  "path": "C:\\Users\\marug\\STLModel\\outputs\\procedural-extended-v2\\last\\prompt-3-seed-42.stl",
+  "units": "mm (interpret STL coordinates as millimeters)",
+  "extents_mm": [
+    96.77040700311844,
+    90.44830239890769,
+    100.0
+  ],
+  "vertices": 1829,
+  "faces": 3610,
+  "components": 18,
+  "watertight": true,
+  "warnings": [
+    "Geometry touches the grid boundary; the exterior is capped for export.",
+    "18 disconnected components; all have been preserved.",
+    "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+  ]
+}

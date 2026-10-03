@@ -172,8 +172,9 @@ The tests use an explicitly injected offline text-encoder double where appropria
 - Automated tests cover data and mesh behavior, exact CPU checkpoint continuation, both model stages, and application routes/callbacks. Lint and formatting checks pass.
 - GTX 1660 Ti benchmark: batch 8, 10 timed synthetic VAE steps, approximately **0.0096 seconds/step** and **0.083 GiB peak PyTorch-allocated memory**. This excludes data loading, validation, CUDA context memory, and other GPU processes.
 - The VAE trained on all **20 procedural training shapes** for **119.094 seconds**. Its selected checkpoint reached **0.891406 validation IoU** and **0.948203 test IoU**, compared with about 0.300 held-out IoU in the earlier two-object smoke run. Both validation reconstructions reopened as watertight, single-component meshes, though the chair loses armrests and the table has distorted edges.
-- Diffusion initially trained for **166.204 seconds**, then resumed for **3,600.219 seconds (one additional hour)** on the GTX 1660 Ti. The extension added **86,876 steps**, reaching **89,876 total**. Its validation-selected checkpoint is step **5,542**; subsequent training overfit the fixture. The VAE, cached embeddings, architecture, learning rate, and splits remained fixed.
+- Diffusion initially trained for **166.204 seconds**, then resumed for **3,600.219 seconds (one additional hour)** on the GTX 1660 Ti. The extension added **86,876 steps**, reaching **89,876 total**. A second **3,600.063-second** session on October 3 added **74,202 steps**, reaching **164,078 total**. The validation-selected checkpoint remains step **5,542**; no subsequent step improved that score, and later training overfit the fixture. The VAE, cached embeddings, architecture, learning rate, and splits remained fixed.
 - The exact prompt **`A chair with a tall back and armrests`** and three chair/table controls were tested with seeds **42, 43, and 44**. All 36 before/selected/final STL exports reopened with finite coordinates, watertight surfaces, and a 100 mm longest dimension. They remain severely fragmented. The selected extended checkpoint has **37–174 disconnected components** across its 12 samples; the final full-hour state has **9–123**, with some clearer category differences but broken geometry. Tall/short-back control is not supported by this fixture's captions.
+- The second-hour final state worsened validation noise MSE to **1.831380** and test noise MSE to **1.011875**. Its 12 matched-seed samples have **16?101 disconnected components**, all require boundary caps, and the exact chair prompt has **82 / 57 / 84 components** for seeds 42 / 43 / 44. All 36 new comparison exports reopened with finite coordinates, watertight surfaces, and a 100 mm longest dimension. Chairs remain fragmented and table prompts gained unwanted upright features.
 - No Text2Shape training run has been performed. No browser was connected for visual UI inspection, and no slicer/physical-print validation was performed. Local application routes and callbacks were tested programmatically.
 
 The current diffusion metrics are:
@@ -182,11 +183,12 @@ The current diffusion metrics are:
 | --- | ---: | ---: | ---: | ---: |
 | Original best, step 2,870 | 0.225077 | 0.003874 | 0.133528 | 0.005670 |
 | Extended best, step 5,542 | **0.203372** | **0.009242** | **0.102985** | **0.012628** |
-| Full-hour final state, step 89,876 | 1.245852 | 0.328311 | 0.540591 | 0.208712 |
+| First-hour final state, step 89,876 | 1.245852 | 0.328311 | 0.540591 | 0.208712 |
+| Second-hour final state, step 164,078 | 1.831380 | 0.449912 | 1.011875 | -0.067285 |
 
-The gap is shuffled-text MSE minus correct-text MSE. A larger gap alone does not establish better prompt following: the final state has much worse held-out error. There are only two validation and two test objects, evaluated with fixed sampled noise/timesteps. Checkpoint selection used validation only.
+The gap is shuffled-text MSE minus correct-text MSE. The newest final checkpoint has a negative test gap: correct captions performed worse than shuffled captions in this small fixed-noise diagnostic. A larger gap alone does not establish better prompt following: the final state has much worse held-out error. There are only two validation and two test objects, evaluated with fixed sampled noise/timesteps. Checkpoint selection used validation only.
 
-See the [one-hour extension report](experiments/procedural-extended-v1/report.md) for actual timings, metrics, defects, and matched-seed previews: [before](experiments/procedural-extended-v1/before/preview-front.png), [selected best](experiments/procedural-extended-v1/after/preview-front.png), and [full-hour final state](experiments/procedural-extended-v1/last/preview-front.png). The [initial full-fixture report](experiments/procedural-v1/report.md) remains available as the baseline.
+See the [one-hour extension report](experiments/procedural-extended-v1/report.md) for actual timings, metrics, defects, and matched-seed previews: [before](experiments/procedural-extended-v1/before/preview-front.png), [selected best](experiments/procedural-extended-v1/after/preview-front.png), and [full-hour final state](experiments/procedural-extended-v1/last/preview-front.png). The [initial full-fixture report](experiments/procedural-v1/report.md) remains available as the baseline. See the [second one-hour extension report](experiments/procedural-extended-v2/report.md) and [newest final-state preview](experiments/procedural-extended-v2/last/preview-front.png). The previous best remains recommended.
 
 To try the selected extended checkpoint on the machine with the local weights:
 
@@ -195,6 +197,14 @@ To try the selected extended checkpoint on the machine with the local weights:
 ```
 
 Open **http://127.0.0.1:7860**. To try the final full-hour state, replace the diffusion path with `runs/procedural-diffusion-extended-v1/last.pt`; its partially improved visual category separation comes with substantially worse held-out metrics. Geometry from both checkpoints remains defective.
+
+To inspect the newest final state, stop the existing server with Ctrl+C and restart with:
+
+```powershell
+.\.venv\Scripts\python.exe -m stlmodel serve --vae runs/procedural-vae-v1/best.pt --diffusion runs/procedural-diffusion-extended-v2/last.pt --device cuda
+```
+
+The current server keeps its loaded weights until restarted. If port 7860 is occupied, stop that server or add `--port 7861`. The newest `last.pt` has worse held-out metrics and fragmented geometry; `runs/procedural-diffusion-extended-v2/best.pt` is identical to the earlier recommended best.
 
 The ignored datasets, checkpoints, and STL binaries remain local; a GitHub clone alone does not include the trained weights. These are small procedural engineering experiments, not a useful general-purpose model or evidence of Text2Shape performance.
 

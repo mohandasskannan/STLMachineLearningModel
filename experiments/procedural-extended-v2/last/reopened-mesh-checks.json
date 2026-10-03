@@ -1,0 +1,134 @@
+[
+  {
+    "path": "outputs\\procedural-extended-v2\\last\\prompt-0-seed-42.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 82,
+    "extents_mm": [
+      100.0,
+      99.75311279296875,
+      99.27127838134766
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v2\\last\\prompt-0-seed-43.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 57,
+    "extents_mm": [
+      100.0,
+      99.05326843261719,
+      99.02125549316406
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v2\\last\\prompt-0-seed-44.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 84,
+    "extents_mm": [
+      100.0,
+      99.71379089355469,
+      99.61249542236328
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v2\\last\\prompt-1-seed-42.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 84,
+    "extents_mm": [
+      100.0,
+      99.54627227783203,
+      99.44315338134766
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v2\\last\\prompt-1-seed-43.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 59,
+    "extents_mm": [
+      100.0,
+      99.32569885253906,
+      99.21326446533203
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v2\\last\\prompt-1-seed-44.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 84,
+    "extents_mm": [
+      100.0,
+      99.5391845703125,
+      99.57589721679688
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v2\\last\\prompt-2-seed-42.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 86,
+    "extents_mm": [
+      98.78765106201172,
+      100.0,
+      98.81159973144531
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v2\\last\\prompt-2-seed-43.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 101,
+    "extents_mm": [
+      100.0,
+      99.20950317382812,
+      98.95325469970703
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v2\\last\\prompt-2-seed-44.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 83,
+    "extents_mm": [
+      100.0,
+      99.63826751708984,
+      99.06378936767578
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v2\\last\\prompt-3-seed-42.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 18,
+    "extents_mm": [
+      96.7704086303711,
+      90.44830322265625,
+      100.0
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v2\\last\\prompt-3-seed-43.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 16,
+    "extents_mm": [
+      100.0,
+      89.79766845703125,
+      96.61085510253906
+    ]
+  },
+  {
+    "path": "outputs\\procedural-extended-v2\\last\\prompt-3-seed-44.stl",
+    "finite": true,
+    "watertight": true,
+    "components": 31,
+    "extents_mm": [
+      100.0,
+      98.27947998046875,
+      99.05436706542969
+    ]
+  }
+]

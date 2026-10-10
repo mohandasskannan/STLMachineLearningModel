@@ -15,6 +15,20 @@ directly equivalent to the smaller pilot's epochs.
 
 ## Run
 
+To preview the new candidate beside the retained epoch-80 model:
+
+```powershell
+.venv/Scripts/python.exe experiments/furniture-diffusion-v2/try_model.py --device cuda
+```
+
+Open **http://127.0.0.1:7864** for the expanded-data candidate and
+**http://127.0.0.1:7863** for epoch 80. Use the same prompt and seed to compare.
+The candidate is explicitly labeled and fingerprinted against the reviewed
+weights/cache; it has not replaced the selected model. STL outputs and generation
+metadata stay under `E:/STLModelData/furniture-diffusion-v2/playground`.
+
+To train the bounded experiment:
+
 ```powershell
 .venv/Scripts/python.exe experiments/furniture-diffusion-v2/run_experiment.py all
 ```

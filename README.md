@@ -271,3 +271,25 @@ Worse image
 Fourth Run
 
 <img width="435" height="685" alt="image" src="https://github.com/user-attachments/assets/9c064dab-4b2f-4731-a38e-f377e691bb5a" />
+
+### Diffusion follow-up — October 10, 2026
+
+An isolated velocity-prediction and conditioning experiment substantially improves
+the furniture pilot without changing its decoder or existing weights. On 80
+validation-caption samples, the conditioned model with guidance 2 reaches 97.5%
+category agreement under a nearest-shape diagnostic, compared with 73.8% for the
+stabilized legacy sampler. Geometry and armrest control remain imperfect; no
+production model was replaced. See the [experiment report](experiments/diffusion-high-noise-v1/report.md)
+and [visual comparison](experiments/diffusion-high-noise-v1/comparison.png).
+
+A subsequent isolated low-rate fine-tune improved validation error by 0.471%,
+below its predefined 0.5% acceptance threshold, and introduced a visible armrest
+regression. The epoch-80 checkpoint remains selected. See the
+[fine-tuning report](experiments/diffusion-low-lr-v1/report.md).
+
+The furniture dataset has now expanded to 14,028 objects, including 11,214
+training shapes and 47,662 screened source captions. All 400 original validation
+and test objects are preserved. Geometry, duplicate, and caption checks plus
+32 visual spot checks were completed; no model was retrained. See the
+[data expansion report](experiments/furniture-data-v2/report.md).
+

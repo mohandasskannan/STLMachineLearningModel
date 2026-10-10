@@ -1,0 +1,16 @@
+{
+  "variant": "velocity",
+  "step": 22680,
+  "epoch": 180,
+  "stop_reason": "validation_plateau",
+  "session_seconds": 151.64100000000326,
+  "validation": {
+    "velocity_mse": 0.574080107000855,
+    "shuffled_velocity_mse": 0.6401626211744887,
+    "clean_latent_mse": 0.27180982217774374,
+    "conditioning_gap": 0.06608251417363376
+  },
+  "best_velocity_mse": 0.5720655386512344,
+  "parameters": 1547008,
+  "peak_allocated_gib": 0.06432437896728516
+}

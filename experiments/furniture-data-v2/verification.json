@@ -1,0 +1,193 @@
+{
+  "verified_objects": 14028,
+  "split_objects": {
+    "train": 11214,
+    "val": 1407,
+    "test": 1407
+  },
+  "all_voxel_file_hashes_verified": true,
+  "all_occupancy_hashes_verified": true,
+  "exact_duplicate_geometry": false,
+  "preserved_original_holdouts": 400,
+  "original_holdout_records_identical": true,
+  "introduced_cross_split_near_duplicates_in_checked_pairs": 0,
+  "remaining_original_holdout_near_duplicate_pairs": 0,
+  "near_duplicate_search_exhaustive": false,
+  "protected_artifacts_unchanged": true,
+  "visual_review_objects": 32,
+  "visual_review_groups": {
+    "chair_armrests": 5,
+    "chair_armless": 7,
+    "chair_other": 4,
+    "table_fourlegs": 6,
+    "table_round_base": 5,
+    "table_storage": 5
+  },
+  "visual_review_verdicts": {
+    "geometry_consistent": 25,
+    "unverifiable": 7
+  },
+  "review_meshes": [
+    {
+      "id": "98dc530eeece9f0ac3d18d4b522a4e80",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "b659a94c6643282f504721639e19f609",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "6df97f6b123be35b71a782a4379556c7",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "56ab99b69cbc1bb50d55c58aabe6e7b",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "2ca371de1093a3867c9386abeb61de4d",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "b7e01301bb1eef41f92f3e7bff4c4ab0",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "b8f2712e8330ba6b3c9fe3a963c6d73b",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "dddbd223b3bbfa8efd93c2ac42357c74",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "56902e76cb4f1039c482eb499cc8fbcd",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "ba7dc0bb03a57732a9d30b145d59ff",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "632a722f9edbaf607b11ae648ea92233",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "6b719f78721d1eb742559566b871c978",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "6601d179e754149e2f710dc8afceb40e",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "a63ceaceaaae4af9753496ba23f2183",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "9343df9a7ed6cbba1923501fcdd899bb",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "b8fe0dd70bae3a9dba7a8c9ac8add14",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "511cf6bce918c6738e0afce805a277dc",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "e4b2faf6b123b90286603115d2739530",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "2c6c50203f519351bf5f47124ed0461e",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "71e814e5c0f59c1ec45dce3c044e7ab3",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "d1a0b26d98ee4a877fa6d07b5977c143",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "d6064ca673a721ee44175b4dddf5be08",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "7cad0234edde1e90edd9ab1253e1a9c4",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "9fac61f255813deef91663a74ccd2338",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "8eed35fd5b777acf58316b27df6c8e87",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "4e232b14eff92afb268cf362bf3a8d20",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "391005d8f1291cb71bb088904f7cb154",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "bd4662a53f8efdd955f46d55537192b6",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "e056700bca093e0c1cf96a5dc33e37f1",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "649a08917b5946e8d41f65a1778a52d0",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "98c67a49d64d7bed1cf96a5dc33e37f1",
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "id": "b57f0907adb6a60b391e4d6c585a697a",
+      "watertight": true,
+      "components": 1
+    }
+  ],
+  "source_caption_object_pairings_verified": 57982
+}

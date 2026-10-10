@@ -1,0 +1,130 @@
+{
+  "source": "https://svl.stanford.edu/projects/text2shape/",
+  "source_caption_sha256": "2515b9118d8f96ffdae241c1d9ec12fc51dfdbb358bbacf40836592b93748eed",
+  "seed": 42,
+  "source_objects": 15032,
+  "source_caption_rows": 75360,
+  "selected_objects": 14028,
+  "selected_captions": 59974,
+  "split_objects": {
+    "val": 1407,
+    "test": 1407,
+    "train": 11214
+  },
+  "split_captions": {
+    "train": 47662,
+    "val": 6100,
+    "test": 6212
+  },
+  "split_categories": {
+    "train": {
+      "chair": 4792,
+      "table": 6422
+    },
+    "val": {
+      "chair": 603,
+      "table": 804
+    },
+    "test": {
+      "chair": 603,
+      "table": 804
+    }
+  },
+  "new_training_objects": 9671,
+  "retained_pilot_training_objects": 1543,
+  "preserved_baseline_holdouts": 400,
+  "exclusion_reasons": {
+    "degenerate_occupancy": 275,
+    "disconnected_geometry": 118,
+    "no_usable_geometry_caption": 32,
+    "collapsed_or_very_flat_geometry": 53,
+    "exact_duplicate_geometry": 222,
+    "unreadable_geometry": 9,
+    "near_duplicate_geometry": 293,
+    "no_captions_after_visual_review": 2
+  },
+  "caption_rejection_reasons": {
+    "no_geometry_description": 9089,
+    "conflicting_attribute_captions": 1149,
+    "opposite_category_caption": 730,
+    "caption_length": 619,
+    "duplicate_caption": 9,
+    "visual_unverifiable": 9
+  },
+  "training_subtype_counts": {
+    "04331277": 1199,
+    "20000027": 440,
+    "03649674": 48,
+    "03179701": 951,
+    "02738535": 702,
+    "03001627": 1663,
+    "03092883": 243,
+    "04379243": 3105,
+    "20000040": 241,
+    "03063968": 561,
+    "03376595": 66,
+    "04603729": 241,
+    "20000038": 31,
+    "20000041": 262,
+    "03116530": 47,
+    "20000036": 18,
+    "04373704": 296,
+    "20000022": 60,
+    "20000015": 12,
+    "20000037": 330,
+    "03982430": 64,
+    "04099969": 73,
+    "20000020": 91,
+    "03002711": 37,
+    "20000039": 111,
+    "03620967": 50,
+    "04398951": 17,
+    "20000021": 9,
+    "20000025": 12,
+    "03246933": 17,
+    "03904060": 29,
+    "04381587": 49,
+    "20000026": 63,
+    "20000023": 11,
+    "03090000": 10,
+    "02699629": 12,
+    "20000010": 9,
+    "02964075": 11,
+    "04301000": 8,
+    "20000016": 13,
+    "04380533": 1,
+    "04220250": 1
+  },
+  "training_attribute_caption_counts": {
+    "unspecified_armrests": 42622,
+    "without_armrests": 1821,
+    "with_armrests": 3219
+  },
+  "near_duplicate_method": "16 nearest neighbors by pooled 8-cubed occupancy cosine; confirm full-resolution IoU >= 0.98; connected-group deduplication",
+  "near_duplicate_checked_pairs": 177123,
+  "near_duplicate_confirmed_pairs": 344,
+  "near_duplicate_search_is_exhaustive": false,
+  "geometry_filters": {
+    "minimum_occupied_voxels": 64,
+    "maximum_occupied_fraction": 0.45,
+    "minimum_bbox_extent": 3,
+    "minimum_vertical_bbox_extent": 6,
+    "minimum_largest_component_fraction": 0.98,
+    "connectivity": 26
+  },
+  "protected_holdout_filter_exemption": true,
+  "caption_accuracy": "Human source captions with automated screening and 32 geometry-only visual spot checks; flagged claims quarantined; full corpus not exhaustively verified",
+  "manifest_sha256": "46c8a1140d454d13d05dd2545b6b0486edad5bd3bc1453afe4498735147e00a5",
+  "model_training_performed": false,
+  "visual_review": "completed_with_flagged_captions_quarantined",
+  "protected_artifacts_unchanged": true,
+  "visual_review_counts": {
+    "geometry_consistent": 25,
+    "unverifiable": 7
+  },
+  "visually_quarantined_captions": 9,
+  "visually_removed_objects": 2,
+  "caption_screening_refreshed_after_visual_review": true,
+  "visually_resolved_source_conflicts": 0,
+  "visually_checked_retained_captions": 25
+}

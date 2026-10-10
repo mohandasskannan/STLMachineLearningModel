@@ -1,0 +1,14 @@
+{
+  "variant": "conditioned",
+  "seed": 42,
+  "batch_size": 64,
+  "width": 512,
+  "learning_rate": 0.0002,
+  "epochs": 200,
+  "max_seconds": 600.0,
+  "patience": 20,
+  "max_steps": 0,
+  "text_dropout": 0.15,
+  "diffusion_steps": 200,
+  "source_sha256": "099380612172cbcbf069c8bd13ea740b606d480b3d6356772fc7e0c896695dff"
+}

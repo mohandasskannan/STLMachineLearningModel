@@ -1,0 +1,1367 @@
+[
+  {
+    "id": "98dc530eeece9f0ac3d18d4b522a4e80",
+    "category": "chair",
+    "group": "chair_armrests",
+    "caption": "circular based chair with black seat and back and black armrests",
+    "source_caption_id": "40926",
+    "voxel": "voxels/5b8cd2041d975568ea100b32.npz",
+    "all_retained_captions": [
+      "this is a lounge chair. it has what looks to be black fabric covering the seat, the arm rests, and the back support. the rest is a nice brown wood. it has a circular base with supports coming from either side, which hold on to the seat itself and become the armrests.",
+      "a black chair with a brown base and two arm rails",
+      "This is a modern flat style type of ground chair. Has a brown circular bottom and navy blue seat, back, and arm rests.",
+      "A brown wooden chair with dark gray cushions. It has armrest that match in color.",
+      "circular based chair with black seat and back and black armrests"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Circular pedestal, seat, tall back and paired armrests are visible. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 1,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\01-chair-98dc530eeece9f0ac3d18d4b522a4e80.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        75.0,
+        90.625,
+        100.0
+      ],
+      "vertices": 4324,
+      "faces": 8664,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "this is a lounge chair. it has what looks to be black fabric covering the seat, the arm rests, and the back support. the rest is a nice brown wood. it has a circular base with supports coming from either side, which hold on to the seat itself and become the armrests.",
+      "a black chair with a brown base and two arm rails",
+      "This is a modern flat style type of ground chair. Has a brown circular bottom and navy blue seat, back, and arm rests.",
+      "A brown wooden chair with dark gray cushions. It has armrest that match in color.",
+      "circular based chair with black seat and back and black armrests"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "b659a94c6643282f504721639e19f609",
+    "category": "chair",
+    "group": "chair_armrests",
+    "caption": "Light brown cloth computer chair, with wood arms, and height adjustment for those hard to reach desks.",
+    "source_caption_id": "96816",
+    "voxel": "voxels/c28a418448c44bba7451f5c6.npz",
+    "all_retained_captions": [
+      "Light brown cloth computer chair, with wood arms, and height adjustment for those hard to reach desks.",
+      "BROWN COLOR CUSHION ROLLING CHAIR WITH HAND SUPPORT AND BACK SUPPORT",
+      "Cushioned brown office chair on 5 wheels; spins. Ergonomically correct arm and back support."
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Office-chair shape has paired armrests and a central caster base; adjustment function cannot be tested from occupancy. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 2,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\02-chair-b659a94c6643282f504721639e19f609.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        62.5,
+        68.75,
+        100.0
+      ],
+      "vertices": 2708,
+      "faces": 5420,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "Light brown cloth computer chair, with wood arms, and height adjustment for those hard to reach desks.",
+      "BROWN COLOR CUSHION ROLLING CHAIR WITH HAND SUPPORT AND BACK SUPPORT",
+      "Cushioned brown office chair on 5 wheels; spins. Ergonomically correct arm and back support."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "6df97f6b123be35b71a782a4379556c7",
+    "category": "chair",
+    "group": "chair_armless",
+    "caption": "Curve chair sofa with golden color with out any side arms.",
+    "source_caption_id": "90371",
+    "voxel": "voxels/a0a897ed800250fa0af223e9.npz",
+    "all_retained_captions": [
+      "A cushion light yellow colour chair has broader back with steel old fashioned legs",
+      "Curve chair sofa with golden color with out any side arms.",
+      "Abstract shaped, yellow chair, with sled like steel legs"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Low curved lounge/sofa shape has no side armrests; source wording with out any side arms is negative, not positive. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 3,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\03-chair-6df97f6b123be35b71a782a4379556c7.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        65.625,
+        100.0,
+        56.25
+      ],
+      "vertices": 2518,
+      "faces": 5040,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "A cushion light yellow colour chair has broader back with steel old fashioned legs",
+      "Curve chair sofa with golden color with out any side arms.",
+      "Abstract shaped, yellow chair, with sled like steel legs"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "56ab99b69cbc1bb50d55c58aabe6e7b",
+    "category": "chair",
+    "group": "chair_armrests",
+    "caption": "Large leather living room chair with arm rests",
+    "source_caption_id": "71220",
+    "voxel": "voxels/f3b49ebd83ae2a29c661a6ef.npz",
+    "all_retained_captions": [
+      "This is a sofa with leather finishes and high comfort back rest. it looks expensive.",
+      "An arm cushion sofa in light chocolate color has a perpendicular bottom.",
+      "This is a comfortable chair cum sofa made of wood.it is brownish orange color it is made of wood and cloth",
+      "A beige armchair with tall backrest and shorter armrest, somewhat general shape, with brown base under the seat that is placed on another, thinner but wider base in a light gray color.",
+      "Large leather living room chair with arm rests"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Broad living-room chair has enclosing armrests and a high back. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 4,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\04-chair-56ab99b69cbc1bb50d55c58aabe6e7b.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        93.75,
+        100.0,
+        93.75
+      ],
+      "vertices": 5334,
+      "faces": 10664,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "This is a sofa with leather finishes and high comfort back rest. it looks expensive.",
+      "An arm cushion sofa in light chocolate color has a perpendicular bottom.",
+      "This is a comfortable chair cum sofa made of wood.it is brownish orange color it is made of wood and cloth",
+      "A beige armchair with tall backrest and shorter armrest, somewhat general shape, with brown base under the seat that is placed on another, thinner but wider base in a light gray color.",
+      "Large leather living room chair with arm rests"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "2ca371de1093a3867c9386abeb61de4d",
+    "category": "chair",
+    "group": "chair_armrests",
+    "caption": "This gray chair has a broad seat, two arm rests and a high back. It doesn't look comfortable.",
+    "source_caption_id": "101071",
+    "voxel": "voxels/e8ce32e9f288d453071ae3bc.npz",
+    "all_retained_captions": [
+      "This gray chair has a broad seat, two arm rests and a high back. It doesn't look comfortable.",
+      "this chair is made of wood and is cover with cushion material and it is hand rest part is made in L shape and is coloured in ash colour",
+      "A basic; grey, squared edged chair, with two armrests connected to the seat. Rather than four individual legs, the base is one large block.",
+      "A stragit back chair"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Broad seat, paired armrests and a tall rectangular back are visible; comfort is subjective. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 5,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\05-chair-2ca371de1093a3867c9386abeb61de4d.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        78.125,
+        75.0,
+        100.0
+      ],
+      "vertices": 4056,
+      "faces": 8116,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "This gray chair has a broad seat, two arm rests and a high back. It doesn't look comfortable.",
+      "this chair is made of wood and is cover with cushion material and it is hand rest part is made in L shape and is coloured in ash colour",
+      "A basic; grey, squared edged chair, with two armrests connected to the seat. Rather than four individual legs, the base is one large block.",
+      "A stragit back chair"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "b7e01301bb1eef41f92f3e7bff4c4ab0",
+    "category": "chair",
+    "group": "chair_armrests",
+    "caption": "Green lounge chair with thick silver metal arms. Low-clearance non-slip legs",
+    "source_caption_id": "62047",
+    "voxel": "voxels/6a8305b5f84e445d8c8b251f.npz",
+    "all_retained_captions": [
+      "A green and silver color cushion comfort chair with two solid side supports",
+      "A green captain's chair on four feet. The chair's arms are white to contrast its' body, and grooved along the arm rest.",
+      "The object is an armchair with light grey arm rests and a green seat cushion and back rest.",
+      "Green lounge chair with thick silver metal arms. Low-clearance non-slip legs",
+      "A green cushion chair with chrome curve sides and with 4 short 4 inch legs"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Bulky lounge chair has thick side arm structures and low supports; non-slip function cannot be tested. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 6,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\06-chair-b7e01301bb1eef41f92f3e7bff4c4ab0.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        90.625,
+        90.625
+      ],
+      "vertices": 5402,
+      "faces": 10800,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "A green and silver color cushion comfort chair with two solid side supports",
+      "A green captain's chair on four feet. The chair's arms are white to contrast its' body, and grooved along the arm rest.",
+      "The object is an armchair with light grey arm rests and a green seat cushion and back rest.",
+      "Green lounge chair with thick silver metal arms. Low-clearance non-slip legs",
+      "A green cushion chair with chrome curve sides and with 4 short 4 inch legs"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "b8f2712e8330ba6b3c9fe3a963c6d73b",
+    "category": "chair",
+    "group": "chair_armless",
+    "caption": "A tall backed wood chair with slats and no arms.",
+    "source_caption_id": "55602",
+    "voxel": "voxels/ba4c0014ca7928dd753f2c2b.npz",
+    "all_retained_captions": [
+      "black wooden arm less dining chair with long back and square sitting base",
+      "This is a brown chair with spindle legs, slated for the back.",
+      "wooden chair with four legs and an attractive panel typed chair back and a flat seat.",
+      "A wooden chair with wooden rods as back support and four crafted legs.",
+      "A tall backed wood chair with slats and no arms."
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Tall narrow back with vertical slat-like members and no side armrests. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 7,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\07-chair-b8f2712e8330ba6b3c9fe3a963c6d73b.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        53.125,
+        37.5,
+        100.0
+      ],
+      "vertices": 1576,
+      "faces": 3152,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "black wooden arm less dining chair with long back and square sitting base",
+      "This is a brown chair with spindle legs, slated for the back.",
+      "wooden chair with four legs and an attractive panel typed chair back and a flat seat.",
+      "A wooden chair with wooden rods as back support and four crafted legs.",
+      "A tall backed wood chair with slats and no arms."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "dddbd223b3bbfa8efd93c2ac42357c74",
+    "category": "chair",
+    "group": "chair_armless",
+    "caption": "A sand coloured brown wooden chair with no armrest and long thin legs",
+    "source_caption_id": "93627",
+    "voxel": "voxels/ca1bcfa0e5ca8a063f2f5e43.npz",
+    "all_retained_captions": [
+      "A sand coloured brown wooden chair with no armrest and long thin legs",
+      "This is a wooden pub style chair with no arms. The back of the chair has six slats.",
+      "A tall four legged chair with backrest."
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Plain armless chair has long narrow legs and a simple back. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 8,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\08-chair-dddbd223b3bbfa8efd93c2ac42357c74.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        40.625,
+        46.875,
+        100.0
+      ],
+      "vertices": 1502,
+      "faces": 3000,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "A sand coloured brown wooden chair with no armrest and long thin legs",
+      "This is a wooden pub style chair with no arms. The back of the chair has six slats.",
+      "A tall four legged chair with backrest."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "56902e76cb4f1039c482eb499cc8fbcd",
+    "category": "chair",
+    "group": "chair_armless",
+    "caption": "A modern comfortable plastic chair with backrest and no armrest",
+    "source_caption_id": "61786",
+    "voxel": "voxels/02f9e9c6130dd8f31312b813.npz",
+    "all_retained_captions": [
+      "A modern comfortable plastic chair with backrest and no armrest"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Curved continuous seat/back body has no separate armrests. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 9,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\09-chair-56902e76cb4f1039c482eb499cc8fbcd.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        62.5,
+        78.125,
+        100.0
+      ],
+      "vertices": 3440,
+      "faces": 6876,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "A modern comfortable plastic chair with backrest and no armrest"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "ba7dc0bb03a57732a9d30b145d59ff",
+    "category": "chair",
+    "group": "chair_armless",
+    "caption": "grey legged chair without arm rests",
+    "source_caption_id": "53743",
+    "voxel": "voxels/04e6b2ec7af8af9fc6981cf7.npz",
+    "all_retained_captions": [
+      "Chair With Black Metallic Frame And Sky Blue Cushion With Out Arm",
+      "A blue printed fabric chair with a metallic like legs and backing framework.",
+      "grey legged chair without arm rests"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Slatted-back chair with visible legs and no armrests. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 10,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\10-chair-ba7dc0bb03a57732a9d30b145d59ff.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        62.5,
+        68.75,
+        100.0
+      ],
+      "vertices": 2712,
+      "faces": 5440,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "Chair With Black Metallic Frame And Sky Blue Cushion With Out Arm",
+      "A blue printed fabric chair with a metallic like legs and backing framework.",
+      "grey legged chair without arm rests"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "632a722f9edbaf607b11ae648ea92233",
+    "category": "chair",
+    "group": "chair_armless",
+    "caption": "An old-fashioned looking wooden captain's chair with vertical rails on the back and no arms.",
+    "source_caption_id": "44721",
+    "voxel": "voxels/05ad85886637d77f4eb50610.npz",
+    "all_retained_captions": [
+      "a classic wooden chair. 4 legs. a barred backseat half curved half open.",
+      "A dark, wooden, chair with bars.",
+      "An old-fashioned looking wooden captain's chair with vertical rails on the back and no arms.",
+      "a two-toned chair that has a semi-cirlce shape to the back."
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Back has vertical rails and no side armrests. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 11,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\11-chair-632a722f9edbaf607b11ae648ea92233.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        59.375,
+        59.375,
+        100.0
+      ],
+      "vertices": 2494,
+      "faces": 5020,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "a classic wooden chair. 4 legs. a barred backseat half curved half open.",
+      "A dark, wooden, chair with bars.",
+      "An old-fashioned looking wooden captain's chair with vertical rails on the back and no arms.",
+      "a two-toned chair that has a semi-cirlce shape to the back."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "6b719f78721d1eb742559566b871c978",
+    "category": "chair",
+    "group": "chair_armless",
+    "caption": "it is a military green chair without arms but has slatted back an hi written on seat",
+    "source_caption_id": "70641",
+    "voxel": "voxels/cc167f2b5d30f90f1855d80f.npz",
+    "all_retained_captions": [
+      "A green coloured chair with four legs having no hand support",
+      "It is a chair. It made up of wooden. It has four legs. There's a marking of \"Hi\" on it."
+    ],
+    "visual_verdict": "unverifiable",
+    "review_notes": "Armless chair is visible, but the back appears as a solid panel with openings; slatted structure and seat writing cannot be confirmed at this resolution. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "caption",
+    "review_number": 12,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\12-chair-6b719f78721d1eb742559566b871c978.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        68.75,
+        68.75,
+        100.0
+      ],
+      "vertices": 4112,
+      "faces": 8244,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": true,
+    "captions_before_review": [
+      "A green coloured chair with four legs having no hand support",
+      "it is a military green chair without arms but has slatted back an hi written on seat",
+      "It is a chair. It made up of wooden. It has four legs. There's a marking of \"Hi\" on it."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "6601d179e754149e2f710dc8afceb40e",
+    "category": "chair",
+    "group": "chair_other",
+    "caption": "A dirty green chair with a curved back rest and protruding legs.",
+    "source_caption_id": "98251",
+    "voxel": "voxels/7f2ae13598dc23d7ada7c5ea.npz",
+    "all_retained_captions": [
+      "It is a wooden chair with backrest and 4 leg support with orange colored caps.",
+      "a unique comfortable chair with curved shaped backrest, seat connected by a metallic frame and having designed legs"
+    ],
+    "visual_verdict": "unverifiable",
+    "review_notes": "Protruding legs are visible; the asserted curved backrest cannot be confidently confirmed in these two views. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "caption",
+    "review_number": 13,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\13-chair-6601d179e754149e2f710dc8afceb40e.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        56.25,
+        90.625,
+        100.0
+      ],
+      "vertices": 2742,
+      "faces": 5488,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": true,
+    "captions_before_review": [
+      "It is a wooden chair with backrest and 4 leg support with orange colored caps.",
+      "A dirty green chair with a curved back rest and protruding legs.",
+      "a unique comfortable chair with curved shaped backrest, seat connected by a metallic frame and having designed legs"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "a63ceaceaaae4af9753496ba23f2183",
+    "category": "chair",
+    "group": "chair_other",
+    "caption": "red color square shape fiber material new model",
+    "source_caption_id": "115231",
+    "voxel": "voxels/80c76478b81cc6266a8e1931.npz",
+    "all_retained_captions": [
+      "a red and black color metallic chair with two frame style legs and wide seat",
+      "red colour folded chair with steel pipe base and good looking",
+      "it has red in color and base is made by plastics and legs are made by metal",
+      "A RED FUTON LOOKING CHAIR FOR THE LIVING ROOM WITH ONE PIECE RED CUSHION AND AND U STYLE METAL LEGS ATTACHED AT FRONT AND BACK"
+    ],
+    "visual_verdict": "unverifiable",
+    "review_notes": "Shape-only caption does not identify furniture and its square-shape claim is ambiguous; color and material dominate the description. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "caption",
+    "review_number": 14,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\14-chair-a63ceaceaaae4af9753496ba23f2183.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        84.375,
+        96.875,
+        100.0
+      ],
+      "vertices": 3528,
+      "faces": 7060,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": true,
+    "captions_before_review": [
+      "a red and black color metallic chair with two frame style legs and wide seat",
+      "red color square shape fiber material new model",
+      "red colour folded chair with steel pipe base and good looking",
+      "it has red in color and base is made by plastics and legs are made by metal",
+      "A RED FUTON LOOKING CHAIR FOR THE LIVING ROOM WITH ONE PIECE RED CUSHION AND AND U STYLE METAL LEGS ATTACHED AT FRONT AND BACK"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "9343df9a7ed6cbba1923501fcdd899bb",
+    "category": "chair",
+    "group": "chair_other",
+    "caption": "A wooden chair, thick wood, white and creamy wood finish.",
+    "source_caption_id": "100287",
+    "voxel": "voxels/cf5f8fe703428bcabf668dbe.npz",
+    "all_retained_captions": [
+      "This is a chair with for block style legs and a rounded head. The back and one side is brown and the other parts are purple.",
+      "A wooden chair, thick wood, white and creamy wood finish.",
+      "A chair with ivory color and looks different with four legs"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Chair has visibly thick solid framing and a broad block-like back. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 15,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\15-chair-9343df9a7ed6cbba1923501fcdd899bb.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        50.0,
+        43.75,
+        100.0
+      ],
+      "vertices": 2194,
+      "faces": 4384,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "This is a chair with for block style legs and a rounded head. The back and one side is brown and the other parts are purple.",
+      "A wooden chair, thick wood, white and creamy wood finish.",
+      "A chair with ivory color and looks different with four legs"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "b8fe0dd70bae3a9dba7a8c9ac8add14",
+    "category": "chair",
+    "group": "chair_other",
+    "caption": "Antique all gray box chair with 4 open areas on the back",
+    "source_caption_id": "78635",
+    "voxel": "voxels/fbd1dfd40636b183cce66e36.npz",
+    "all_retained_captions": [
+      "A chair with backrest comprising of 5 beams attached to a horizontal block. The legs of the chair look very fragile and delicate.",
+      "Grey solid chair with stripe designed backrest. It has four slim with curved design steel legs."
+    ],
+    "visual_verdict": "unverifiable",
+    "review_notes": "Back has openings, but the asserted count of four cannot be confidently resolved from this voxel target. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "caption",
+    "review_number": 16,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\16-chair-b8fe0dd70bae3a9dba7a8c9ac8add14.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        56.25,
+        53.125,
+        100.0
+      ],
+      "vertices": 2048,
+      "faces": 4100,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": true,
+    "captions_before_review": [
+      "A chair with backrest comprising of 5 beams attached to a horizontal block. The legs of the chair look very fragile and delicate.",
+      "Antique all gray box chair with 4 open areas on the back",
+      "Grey solid chair with stripe designed backrest. It has four slim with curved design steel legs."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "511cf6bce918c6738e0afce805a277dc",
+    "category": "table",
+    "group": "table_fourlegs",
+    "caption": "A brown table with four brown legs holding up the table.",
+    "source_caption_id": "44977",
+    "voxel": "voxels/69e4f117f6eab20197d02498.npz",
+    "all_retained_captions": [
+      "Wooden circular table. Long legs",
+      "Small round kitchen table with a wooden surface and 4 round peg legs.",
+      "This is a round brown table. The legs are round attached with square pieces.",
+      "Brown plain Jane basic round table seats four comfortable.",
+      "A brown table with four brown legs holding up the table."
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Round tabletop supported by four distinct legs visible across both views. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 17,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\17-table-511cf6bce918c6738e0afce805a277dc.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        100.0,
+        62.5
+      ],
+      "vertices": 2864,
+      "faces": 5724,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "Wooden circular table. Long legs",
+      "Small round kitchen table with a wooden surface and 4 round peg legs.",
+      "This is a round brown table. The legs are round attached with square pieces.",
+      "Brown plain Jane basic round table seats four comfortable.",
+      "A brown table with four brown legs holding up the table."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "e4b2faf6b123b90286603115d2739530",
+    "category": "table",
+    "group": "table_fourlegs",
+    "caption": "A ping pong like table standing on four legs red in colour,having top in flat surface blue in colour and top is outlined in white stripe,and having a divider on the middle of the table black in colour",
+    "source_caption_id": "89830",
+    "voxel": "voxels/51ea035bbcc625090a323b37.npz",
+    "all_retained_captions": [
+      "a tennis table with blue green paint on top but with white paint on all sides of the table. The middle is painted black indicating the net, with underside and legs painted in red",
+      "A ping pong like table standing on four legs red in colour,having top in flat surface blue in colour and top is outlined in white stripe,and having a divider on the middle of the table black in colour",
+      "rectangular wooden ping pong table with a teal play area and a black divider",
+      "Rectangular table with blue base and white border.partly divided with black wood"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Low rectangular table has a central divider and four legs. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 18,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\18-table-e4b2faf6b123b90286603115d2739530.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        59.375,
+        37.5
+      ],
+      "vertices": 1754,
+      "faces": 3504,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "a tennis table with blue green paint on top but with white paint on all sides of the table. The middle is painted black indicating the net, with underside and legs painted in red",
+      "A ping pong like table standing on four legs red in colour,having top in flat surface blue in colour and top is outlined in white stripe,and having a divider on the middle of the table black in colour",
+      "rectangular wooden ping pong table with a teal play area and a black divider",
+      "Rectangular table with blue base and white border.partly divided with black wood"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "2c6c50203f519351bf5f47124ed0461e",
+    "category": "table",
+    "group": "table_fourlegs",
+    "caption": "gray metal double sink holes table with four legs",
+    "source_caption_id": "92560",
+    "voxel": "voxels/847d3a561b1db3e2b6f7e1db.npz",
+    "all_retained_captions": [
+      "gray metal double sink holes table with four legs",
+      "A four legged steel kitchen table with two sinks."
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Two sink-like cavities and four corner supports are visible. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 19,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\19-table-2c6c50203f519351bf5f47124ed0461e.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        50.0,
+        68.75
+      ],
+      "vertices": 3176,
+      "faces": 6368,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "gray metal double sink holes table with four legs",
+      "A four legged steel kitchen table with two sinks."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "71e814e5c0f59c1ec45dce3c044e7ab3",
+    "category": "table",
+    "group": "table_fourlegs",
+    "caption": "rectangular shaped table with brown color four legs quite old fashioned.",
+    "source_caption_id": "68800",
+    "voxel": "voxels/8a54527fb4a8f8315adef13d.npz",
+    "all_retained_captions": [
+      "a four legged brown coloured solid table.",
+      "rectangular shaped table with brown color four legs quite old fashioned.",
+      "Brown Color, Rectangle Shape, Wood Material.",
+      "table made with wood , thick legs , standard height",
+      "big 4 legged wooden table with smal hole in the middle of the plate above the legs"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Long rectangular top has four thick supports. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 20,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\20-table-71e814e5c0f59c1ec45dce3c044e7ab3.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        43.75,
+        56.25
+      ],
+      "vertices": 2656,
+      "faces": 5308,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "a four legged brown coloured solid table.",
+      "rectangular shaped table with brown color four legs quite old fashioned.",
+      "Brown Color, Rectangle Shape, Wood Material.",
+      "table made with wood , thick legs , standard height",
+      "big 4 legged wooden table with smal hole in the middle of the plate above the legs"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "d1a0b26d98ee4a877fa6d07b5977c143",
+    "category": "table",
+    "group": "table_fourlegs",
+    "caption": "A wooden table with designed rectangular surface and four short legs",
+    "source_caption_id": "89028",
+    "voxel": "voxels/93325da3e5f9660833602bbe.npz",
+    "all_retained_captions": [
+      "this is a square, brown, wooden table with triangular accents on the top surface.",
+      "A wooden table with designed rectangular surface and four short legs",
+      "a wooden square table with 4 legs. the top has a 2 color triangle design",
+      "Four wooden legs support a square top. The top is covered in a parquet design of four squares composed of alternating light and dark wood.",
+      "A brown table with a mosaic top that radiates dark and light triangles from the middle to the squared edges."
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Rectangular tabletop with four short legs is visible. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 21,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\21-table-d1a0b26d98ee4a877fa6d07b5977c143.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        100.0,
+        46.875
+      ],
+      "vertices": 3112,
+      "faces": 6220,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "this is a square, brown, wooden table with triangular accents on the top surface.",
+      "A wooden table with designed rectangular surface and four short legs",
+      "a wooden square table with 4 legs. the top has a 2 color triangle design",
+      "Four wooden legs support a square top. The top is covered in a parquet design of four squares composed of alternating light and dark wood.",
+      "A brown table with a mosaic top that radiates dark and light triangles from the middle to the squared edges."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "d6064ca673a721ee44175b4dddf5be08",
+    "category": "table",
+    "group": "table_fourlegs",
+    "caption": "This is a small brown, wooden table with a round top. The table has four legs and a slatted wooden base that are the same color as the top.",
+    "source_caption_id": "42360",
+    "voxel": "voxels/eb522b0cf86b7bc2eb8e7a7d.npz",
+    "all_retained_captions": [
+      "Brown/grey, Wooden round topped, square based table.",
+      "a round lamp table , wood, brown , with a lower rack",
+      "a rouns wooden table. strong; 4 square wooden thick legs. a lower extara surface also wood. made out of 6 wooden bars",
+      "brown side table with square base and round top.",
+      "This is a small brown, wooden table with a round top. The table has four legs and a slatted wooden base that are the same color as the top.",
+      "A circular coffee table with a lower part to put objects, such as maganizes."
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Round tabletop has four corner supports and a framed lower base. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 22,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\22-table-d6064ca673a721ee44175b4dddf5be08.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        100.0,
+        65.625
+      ],
+      "vertices": 4824,
+      "faces": 9664,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "Brown/grey, Wooden round topped, square based table.",
+      "a round lamp table , wood, brown , with a lower rack",
+      "a rouns wooden table. strong; 4 square wooden thick legs. a lower extara surface also wood. made out of 6 wooden bars",
+      "brown side table with square base and round top.",
+      "This is a small brown, wooden table with a round top. The table has four legs and a slatted wooden base that are the same color as the top.",
+      "A circular coffee table with a lower part to put objects, such as maganizes."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "7cad0234edde1e90edd9ab1253e1a9c4",
+    "category": "table",
+    "group": "table_round_base",
+    "caption": "It is a rectangular glass table that rests on a wooden and glass combination pedestal.",
+    "source_caption_id": "94440",
+    "voxel": "voxels/8af8cfdbddb2d4627588dab1.npz",
+    "all_retained_captions": [
+      "A table with a glass top and wooden-glass support",
+      "It is a rectangular glass table that rests on a wooden and glass combination pedestal.",
+      "A coffee table with glass top and v shape wooden leg.",
+      "clear rectangular glass with brown wooden flat post.",
+      "A modern glass-top table with a wooden base. The base has a wooden v-shape holding up the top."
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Long rectangular top rests on a shaped central pedestal. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 23,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\23-table-7cad0234edde1e90edd9ab1253e1a9c4.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        56.25,
+        40.625
+      ],
+      "vertices": 2090,
+      "faces": 4180,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "A table with a glass top and wooden-glass support",
+      "It is a rectangular glass table that rests on a wooden and glass combination pedestal.",
+      "A coffee table with glass top and v shape wooden leg.",
+      "clear rectangular glass with brown wooden flat post.",
+      "A modern glass-top table with a wooden base. The base has a wooden v-shape holding up the top."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "9fac61f255813deef91663a74ccd2338",
+    "category": "table",
+    "group": "table_round_base",
+    "caption": "A grey round dining table",
+    "source_caption_id": "41419",
+    "voxel": "voxels/2b54edccf2912b8e80abfd54.npz",
+    "all_retained_captions": [
+      "And office table with a small divot in the center for a laptop. The tag has one large flank with four legs.",
+      "Oval, gray table on pedestal with 4 widespread legs.",
+      "This large oval table is perfect for an office setting, good for use in conference rooms for large meetings.",
+      "A grey round dining table",
+      "All white metal office desk/table with four long legs coming from table base."
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Rounded dining tabletop on a crossed pedestal base. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 24,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\24-table-9fac61f255813deef91663a74ccd2338.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        71.875,
+        34.375
+      ],
+      "vertices": 2034,
+      "faces": 4064,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "And office table with a small divot in the center for a laptop. The tag has one large flank with four legs.",
+      "Oval, gray table on pedestal with 4 widespread legs.",
+      "This large oval table is perfect for an office setting, good for use in conference rooms for large meetings.",
+      "A grey round dining table",
+      "All white metal office desk/table with four long legs coming from table base."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "8eed35fd5b777acf58316b27df6c8e87",
+    "category": "table",
+    "group": "table_round_base",
+    "caption": "A table with round shape and is in red color",
+    "source_caption_id": "112839",
+    "voxel": "voxels/3de5a0dbd73d9d60937e2226.npz",
+    "all_retained_captions": [
+      "A table with round shape and is in red color",
+      "table is made of wood and iron, the top is in circular shape fitted with wood and legs are made of iron",
+      "A brown color wooden circular table with two metal bent legs.",
+      "This is a round large brown table with black bendable legs"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Round tabletop and radial base are visible. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 25,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\25-table-8eed35fd5b777acf58316b27df6c8e87.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        100.0,
+        46.875
+      ],
+      "vertices": 2932,
+      "faces": 5872,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "A table with round shape and is in red color",
+      "table is made of wood and iron, the top is in circular shape fitted with wood and legs are made of iron",
+      "A brown color wooden circular table with two metal bent legs.",
+      "This is a round large brown table with black bendable legs"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "4e232b14eff92afb268cf362bf3a8d20",
+    "category": "table",
+    "group": "table_round_base",
+    "caption": "A contemporary 3 legged round glass coffee table",
+    "source_caption_id": "93804",
+    "voxel": "voxels/c09b38baa82eb4f5eaae7f27.npz",
+    "all_retained_captions": [
+      "A contemporary 3 legged round glass coffee table",
+      "a round table with three grey legs and glass top",
+      "The top is clear, flat and round with 3 metal standing legs attached at the bottom. All one piece.",
+      "Glass-topped, low, round coffee table with three grey legs, possibly metallic. legs resemble turned-in chicken feet."
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Low round tabletop has three curved support sections visible across both views. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 26,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\26-table-4e232b14eff92afb268cf362bf3a8d20.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        100.0,
+        34.375
+      ],
+      "vertices": 3318,
+      "faces": 6640,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "A contemporary 3 legged round glass coffee table",
+      "a round table with three grey legs and glass top",
+      "The top is clear, flat and round with 3 metal standing legs attached at the bottom. All one piece.",
+      "Glass-topped, low, round coffee table with three grey legs, possibly metallic. legs resemble turned-in chicken feet."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "391005d8f1291cb71bb088904f7cb154",
+    "category": "table",
+    "group": "table_round_base",
+    "caption": "A round table brown in color",
+    "source_caption_id": "55725",
+    "voxel": "voxels/770c82550cafed230a83b995.npz",
+    "all_retained_captions": [
+      "brown color round table fully manufactured by wooden material used for clubs, office and home",
+      "A brown colored wooden round coffee table.",
+      "A round table brown in color"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Round tabletop and vertical legs are visible. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 27,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\27-table-391005d8f1291cb71bb088904f7cb154.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "vertices": 4416,
+      "faces": 8828,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "brown color round table fully manufactured by wooden material used for clubs, office and home",
+      "A brown colored wooden round coffee table.",
+      "A round table brown in color"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "bd4662a53f8efdd955f46d55537192b6",
+    "category": "table",
+    "group": "table_storage",
+    "caption": "THIS IS A DISPLAY SHELF IN A MEDIUM STAINED OAK. IT HAS A RECTANGULAR TOP AND THE SUPPORT SHAPE IS IN AN ARC SHAPE WITH A SMALL SQUARE STAND AT THE BOTTOM.",
+    "source_caption_id": "63695",
+    "voxel": "voxels/7e128f8dbd31aaa574300a4a.npz",
+    "all_retained_captions": [
+      "brown color in rectangle shape wooden material dinning table",
+      "A brown wooden desk with a flat top. It has a square base.",
+      "THIS IS A DISPLAY SHELF IN A MEDIUM STAINED OAK. IT HAS A RECTANGULAR TOP AND THE SUPPORT SHAPE IS IN AN ARC SHAPE WITH A SMALL SQUARE STAND AT THE BOTTOM.",
+      "sideboard style table that has a rectangular top with sides that come down into a u shape, brown, wooden and looks heavy"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Long rectangular display top has a curved U-shaped supporting structure and a lower base. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 28,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\28-table-bd4662a53f8efdd955f46d55537192b6.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        34.375,
+        59.375
+      ],
+      "vertices": 2186,
+      "faces": 4372,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "brown color in rectangle shape wooden material dinning table",
+      "A brown wooden desk with a flat top. It has a square base.",
+      "THIS IS A DISPLAY SHELF IN A MEDIUM STAINED OAK. IT HAS A RECTANGULAR TOP AND THE SUPPORT SHAPE IS IN AN ARC SHAPE WITH A SMALL SQUARE STAND AT THE BOTTOM.",
+      "sideboard style table that has a rectangular top with sides that come down into a u shape, brown, wooden and looks heavy"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "e056700bca093e0c1cf96a5dc33e37f1",
+    "category": "table",
+    "group": "table_storage",
+    "caption": "TALL TABLE WITH TILE INLAY, BROWN WOOD COLOR, 2 DRAWER, MULTI-PURPOSE TABLE",
+    "source_caption_id": "47953",
+    "voxel": "voxels/5404ea98876fb80e98519276.npz",
+    "all_retained_captions": [
+      "Tall decorative table. Wooden frame with tile inserts to create a design on top",
+      "This is a long rectangular wooden table."
+    ],
+    "visual_verdict": "unverifiable",
+    "review_notes": "Rectangular table is visible, but two drawers and tile inlay cannot be confirmed in the monochrome 32-cubed target. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "drawers",
+    "review_number": 29,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\29-table-e056700bca093e0c1cf96a5dc33e37f1.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        59.375,
+        59.375
+      ],
+      "vertices": 2472,
+      "faces": 4940,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": true,
+    "captions_before_review": [
+      "Tall decorative table. Wooden frame with tile inserts to create a design on top",
+      "A tall, brown table with wood finish and ceramic-tile tabletop surface including two drawers",
+      "TALL TABLE WITH TILE INLAY, BROWN WOOD COLOR, 2 DRAWER, MULTI-PURPOSE TABLE",
+      "This is a table that would go behind your couch in the living room. It is wooden has a row of tiles on the top with a wooden middle. It also has 2 drawers.",
+      "This is a long rectangular wooden table."
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "649a08917b5946e8d41f65a1778a52d0",
+    "category": "table",
+    "group": "table_storage",
+    "caption": "Brown dressing mirror table with drawers.",
+    "source_caption_id": "58838",
+    "voxel": "voxels/32760f487fb9d02e9909b9d1.npz",
+    "all_retained_captions": [
+      "A brown, wooden rectangular dresser with a mirror mounted on top on the left size. The design is shaker style.",
+      "A wooden dresser with a square mirror at left side of the top.",
+      "Brown dressing mirror table with drawers.",
+      "a wooden dresser with drawers and a large mirror that is off center"
+    ],
+    "visual_verdict": "geometry_consistent",
+    "review_notes": "Dressing-table form has a large vertical mirror panel and multiple drawer-like fronts/knobs. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "",
+    "review_number": 30,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\30-table-649a08917b5946e8d41f65a1778a52d0.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        34.375,
+        96.875,
+        100.0
+      ],
+      "vertices": 2670,
+      "faces": 5336,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": false,
+    "captions_before_review": [
+      "A brown, wooden rectangular dresser with a mirror mounted on top on the left size. The design is shaker style.",
+      "A wooden dresser with a square mirror at left side of the top.",
+      "Brown dressing mirror table with drawers.",
+      "a wooden dresser with drawers and a large mirror that is off center"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "98c67a49d64d7bed1cf96a5dc33e37f1",
+    "category": "table",
+    "group": "table_storage",
+    "caption": "Brown wooden nightstand that has a single pull drawer and slats on two sides . It is a tall squared piece with a shelf below.",
+    "source_caption_id": "48613",
+    "voxel": "voxels/428d07df97afd2a2921b4716.npz",
+    "all_retained_captions": [
+      "Tall oak end table. Verticle wooden slats on bottom and two sides for see through visibility.",
+      "A contemporary looking table that is square in shape.",
+      "tall single draw with vertical decorative supports on opposite sides and horizontal supports about a third of the way up. light brown in color with a black handle"
+    ],
+    "visual_verdict": "unverifiable",
+    "review_notes": "Tall square nightstand and lower shelf are visible; the claimed single pull drawer is not confidently represented. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "drawers",
+    "review_number": 31,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\31-table-98c67a49d64d7bed1cf96a5dc33e37f1.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        62.5,
+        56.25,
+        100.0
+      ],
+      "vertices": 3454,
+      "faces": 6924,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": true,
+    "captions_before_review": [
+      "Tall oak end table. Verticle wooden slats on bottom and two sides for see through visibility.",
+      "A contemporary looking table that is square in shape.",
+      "Brown wooden nightstand that has a single pull drawer and slats on two sides . It is a tall squared piece with a shelf below.",
+      "tall single draw with vertical decorative supports on opposite sides and horizontal supports about a third of the way up. light brown in color with a black handle"
+    ],
+    "removed_from_dataset": false
+  },
+  {
+    "id": "b57f0907adb6a60b391e4d6c585a697a",
+    "category": "table",
+    "group": "table_storage",
+    "caption": "This is a wooden table with a drawer and a fold down extension.",
+    "source_caption_id": "97133",
+    "voxel": "voxels/6fe0487301da64c13256bc5a.npz",
+    "all_retained_captions": [
+      "brown colored, wooden table. four legs, square plain top with drawers attached to top.",
+      "A wooden table with a square top that has a folding section that is in the down position making the top a rectangular shape. There are drawers on the sides of the table.",
+      "the table is foldable, brown and made out of wood. it has a drawer as well."
+    ],
+    "visual_verdict": "unverifiable",
+    "review_notes": "Table with framed supports and an apron is visible; the fold-down extension mechanism cannot be confirmed from the static target. Review covers represented geometry; color and material claims are unchecked.",
+    "rejected_attribute": "caption",
+    "review_number": 32,
+    "mesh": {
+      "path": "E:\\STLModelData\\furniture-data-v2\\review\\32-table-b57f0907adb6a60b391e4d6c585a697a.stl",
+      "units": "mm (interpret STL coordinates as millimeters)",
+      "extents_mm": [
+        100.0,
+        87.5,
+        87.5
+      ],
+      "vertices": 4482,
+      "faces": 8976,
+      "components": 1,
+      "watertight": true,
+      "warnings": [
+        "Geometry touches the grid boundary; the exterior is capped for export.",
+        "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+      ]
+    },
+    "quarantined_from_training": true,
+    "captions_before_review": [
+      "brown colored, wooden table. four legs, square plain top with drawers attached to top.",
+      "A wooden table with a square top that has a folding section that is in the down position making the top a rectangular shape. There are drawers on the sides of the table.",
+      "This is a wooden table with a drawer and a fold down extension.",
+      "the table is foldable, brown and made out of wood. it has a drawer as well."
+    ],
+    "removed_from_dataset": false
+  }
+]

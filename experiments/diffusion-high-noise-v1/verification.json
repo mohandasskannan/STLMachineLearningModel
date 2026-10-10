@@ -1,0 +1,696 @@
+{
+  "reopened_count": 72,
+  "all_finite": true,
+  "all_scale_correct": true,
+  "all_on_build_plane": true,
+  "watertight_count": 72,
+  "protected_sources_unchanged": true,
+  "fixed_prompt_mesh_summary": {
+    "legacy": {
+      "samples": 12,
+      "mesh_components_mean": 20.5,
+      "mesh_components_min": 8,
+      "mesh_components_max": 31
+    },
+    "legacy_start190": {
+      "samples": 12,
+      "mesh_components_mean": 7.916666666666667,
+      "mesh_components_min": 5,
+      "mesh_components_max": 11
+    },
+    "velocity": {
+      "samples": 12,
+      "mesh_components_mean": 3.6666666666666665,
+      "mesh_components_min": 1,
+      "mesh_components_max": 13
+    },
+    "conditioned_g1": {
+      "samples": 12,
+      "mesh_components_mean": 3.5833333333333335,
+      "mesh_components_min": 1,
+      "mesh_components_max": 9
+    },
+    "conditioned_g2": {
+      "samples": 12,
+      "mesh_components_mean": 4.333333333333333,
+      "mesh_components_min": 1,
+      "mesh_components_max": 15
+    },
+    "conditioned_g3": {
+      "samples": 12,
+      "mesh_components_mean": 3.8333333333333335,
+      "mesh_components_min": 1,
+      "mesh_components_max": 13
+    }
+  },
+  "meshes": [
+    {
+      "variant": "legacy",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy\\prompt-0-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 19
+    },
+    {
+      "variant": "legacy",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy\\prompt-0-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 15
+    },
+    {
+      "variant": "legacy",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy\\prompt-0-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 28
+    },
+    {
+      "variant": "legacy",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy\\prompt-1-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 22
+    },
+    {
+      "variant": "legacy",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy\\prompt-1-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 12
+    },
+    {
+      "variant": "legacy",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy\\prompt-1-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 31
+    },
+    {
+      "variant": "legacy",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy\\prompt-2-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 19
+    },
+    {
+      "variant": "legacy",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy\\prompt-2-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 10
+    },
+    {
+      "variant": "legacy",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy\\prompt-2-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 29
+    },
+    {
+      "variant": "legacy",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy\\prompt-3-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 23
+    },
+    {
+      "variant": "legacy",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy\\prompt-3-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 8
+    },
+    {
+      "variant": "legacy",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy\\prompt-3-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 30
+    },
+    {
+      "variant": "legacy_start190",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy_start190\\prompt-0-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 11
+    },
+    {
+      "variant": "legacy_start190",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy_start190\\prompt-0-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 7
+    },
+    {
+      "variant": "legacy_start190",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy_start190\\prompt-0-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 6
+    },
+    {
+      "variant": "legacy_start190",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy_start190\\prompt-1-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 8
+    },
+    {
+      "variant": "legacy_start190",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy_start190\\prompt-1-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 9
+    },
+    {
+      "variant": "legacy_start190",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy_start190\\prompt-1-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 6
+    },
+    {
+      "variant": "legacy_start190",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy_start190\\prompt-2-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 6
+    },
+    {
+      "variant": "legacy_start190",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy_start190\\prompt-2-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 11
+    },
+    {
+      "variant": "legacy_start190",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy_start190\\prompt-2-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 5
+    },
+    {
+      "variant": "legacy_start190",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy_start190\\prompt-3-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 10
+    },
+    {
+      "variant": "legacy_start190",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy_start190\\prompt-3-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 9
+    },
+    {
+      "variant": "legacy_start190",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\legacy_start190\\prompt-3-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 7
+    },
+    {
+      "variant": "velocity",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\velocity\\prompt-0-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "velocity",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\velocity\\prompt-0-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 5
+    },
+    {
+      "variant": "velocity",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\velocity\\prompt-0-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "velocity",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\velocity\\prompt-1-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "velocity",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\velocity\\prompt-1-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 5
+    },
+    {
+      "variant": "velocity",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\velocity\\prompt-1-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "velocity",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\velocity\\prompt-2-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "velocity",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\velocity\\prompt-2-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 4
+    },
+    {
+      "variant": "velocity",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\velocity\\prompt-2-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "velocity",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\velocity\\prompt-3-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "velocity",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\velocity\\prompt-3-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 13
+    },
+    {
+      "variant": "velocity",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\velocity\\prompt-3-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "conditioned_g1",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g1\\prompt-0-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "conditioned_g1",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g1\\prompt-0-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 6
+    },
+    {
+      "variant": "conditioned_g1",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g1\\prompt-0-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "conditioned_g1",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g1\\prompt-1-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "conditioned_g1",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g1\\prompt-1-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "conditioned_g1",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g1\\prompt-1-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "conditioned_g1",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g1\\prompt-2-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "conditioned_g1",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g1\\prompt-2-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "conditioned_g1",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g1\\prompt-2-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "conditioned_g1",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g1\\prompt-3-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 9
+    },
+    {
+      "variant": "conditioned_g1",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g1\\prompt-3-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 7
+    },
+    {
+      "variant": "conditioned_g1",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g1\\prompt-3-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "conditioned_g2",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g2\\prompt-0-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "conditioned_g2",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g2\\prompt-0-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "conditioned_g2",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g2\\prompt-0-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "conditioned_g2",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g2\\prompt-1-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "conditioned_g2",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g2\\prompt-1-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 10
+    },
+    {
+      "variant": "conditioned_g2",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g2\\prompt-1-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 5
+    },
+    {
+      "variant": "conditioned_g2",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g2\\prompt-2-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "conditioned_g2",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g2\\prompt-2-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "conditioned_g2",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g2\\prompt-2-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "conditioned_g2",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g2\\prompt-3-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 5
+    },
+    {
+      "variant": "conditioned_g2",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g2\\prompt-3-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 15
+    },
+    {
+      "variant": "conditioned_g2",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g2\\prompt-3-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "conditioned_g3",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g3\\prompt-0-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "conditioned_g3",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g3\\prompt-0-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "conditioned_g3",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g3\\prompt-0-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "conditioned_g3",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g3\\prompt-1-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "conditioned_g3",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g3\\prompt-1-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 7
+    },
+    {
+      "variant": "conditioned_g3",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g3\\prompt-1-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 4
+    },
+    {
+      "variant": "conditioned_g3",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g3\\prompt-2-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "conditioned_g3",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g3\\prompt-2-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "conditioned_g3",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g3\\prompt-2-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "conditioned_g3",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g3\\prompt-3-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 4
+    },
+    {
+      "variant": "conditioned_g3",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g3\\prompt-3-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 13
+    },
+    {
+      "variant": "conditioned_g3",
+      "path": "E:\\STLModelData\\diffusion-high-noise-v1\\conditioned_g3\\prompt-3-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    }
+  ]
+}

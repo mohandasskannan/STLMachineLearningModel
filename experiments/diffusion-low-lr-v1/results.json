@@ -1,0 +1,904 @@
+{
+  "seeds": [
+    42,
+    43
+  ],
+  "validation_caption_objects": 40,
+  "selected_ids": [
+    "1013f70851210a618f2e765c4a8ed3d",
+    "116a9cd5ac9a008ee8cb931b01d0a372",
+    "11e6e58798ae5be83e5b5dbd84cdd0f8",
+    "1803116582841b39a8ecfcf20e8cc0a",
+    "19c8189116dd7cd3e95c611687989498",
+    "20e71125748a11bc3c65ef99d4b819a4",
+    "20eebdb573142c4eb0a9829865a5e240",
+    "285931af369b12c2ccd42a2d6eea63ed",
+    "286c07abeb67b83bf7248d9dbed7a7b8",
+    "28b605f55e21acffaf88fb4321b22872",
+    "29cd7fbcf6c7c33df51f77a6d7299806",
+    "2a643eaf143a779f7eeca6709b6a824e",
+    "2c052f5541d4d5689b2d7f86be5d0083",
+    "2d44744a7ea0bf724b3c42e318f3affc",
+    "2e079c4e7bb26dce9d1cedd9b694fb2",
+    "3dc39c34c37860da2ef1c225dc7772c5",
+    "3f60205b1eef5555a4bf007e7299d9cb",
+    "411291d56a967d9fe8b2b8dc0c816caf",
+    "41b90d1977ef7672b9b8f177284f45fc",
+    "44456e87be145a703c8d0fdfb1cc2535",
+    "10c0eecb17d1bac64b3c42e318f3affc",
+    "1469f244a1968345e2d95336601deece",
+    "166cb38606acc1834265eb8d6103818",
+    "192812aa4ad73d2fe6c5cd45aa112726",
+    "1952d19986c5f122fcf7c0d4b65182c4",
+    "1aa5369f5443f0389b3250464ea24783",
+    "1d53223952ac93dc3bd24f986301745",
+    "1f05e080ea6e8b64ffcd08faf4fccd0f",
+    "224ccf4c3cfd4cc1b9a0f5d18f1ce54c",
+    "2312d2762c1bad27f84b0be7f50940eb",
+    "25672204a764515578439215682e01f6",
+    "2633f011b236a8979070b65ce7b4b532",
+    "2b1c1e0fad3cb3b8fad46760e869d184",
+    "2b40fbee96b93a5eae25f6fe802a8997",
+    "2b68cd4ffe443506abb564bb0657e0d6",
+    "2c3a4ab3efbf12d74ef530b007e93f59",
+    "307474fd0cab5c982fa77440dcb93214",
+    "30de7eb171cb381f99e8bf807e902261",
+    "3134eb0e0dae6dd7b26d198318b74e09",
+    "32c78783100eac55b45b50ab552e35ba"
+  ],
+  "selected_captions": [
+    "This is a metal chair.  It is low to the ground and has a curved back and curvy legs.",
+    "This is a high straight back chair made of wood.  It has four thick , pillar legs, and open arms with a padded seat and back.",
+    "Look like a movie theather chair with two wooden brown legs and armrests and the body is teal blue colored",
+    "a wooden rustic dining chair with a splat back and turned legs",
+    "It is cream in color.It is a chair.It is two legged chair.",
+    "This is a brown, probably plastic kitchen chair that doesn't seem comfortable with all the circles you have to sit on.",
+    "A chair with two extremely narrow seats one above another, one is neon",
+    "\"A grey colored steel chair with rectangular sections and with four legs.\"",
+    "A deep orange colored chair. Arm rests and quality cushions.",
+    "An old-fashioned, garden type wooden chair with four steel legs",
+    "a all black chair with a leather look that has 4 all black legs on it and about 8 circle like shapes in the chair's back",
+    "SINGLE LEG WOODEN CHAIR WITH ROUND BASE AND ROUND FOOD REST",
+    "it is a combination of beige and grey color, square in shape with box shaped legs and back support, material used is metal for body frame and wood for seating and overall appearance looks like armless old fashioned office chair.",
+    "a dark blue thonet steel chair with four legs knitted seating",
+    "IT IS A WOODEN CHAIR. IT HAS ARM REST. ITS BACK LEGS ARE INCLINED.",
+    "a simple metal chair having striped designed cushion seat on back and bottom",
+    "Wooden high-back chair with cut-out design on top slat of back. Chair has footrails.",
+    "Black legless chair, foam backing, great for gaming.",
+    "a white chair that is modren looking and has foru legs",
+    "a wooden chair with a low back and meduim lenght legs",
+    "It's a natural color wooden table.  The top is round, with the base of the table in the center, leading down to four curved legs.",
+    "a square table with glass at the center andwith four legs",
+    "A round center table red and white in color",
+    "it is dark brown in color, rectangle in shape with four legs, material used is solid wood and appearance looks like normal dining table.",
+    "A brown table with two layers. There are four small legs.",
+    "Standing table. Three different shelf storage compartments. Made out of real wood",
+    "this is a rectangular table with four odd looking legs and the color is light brown",
+    "it is half white in color, rectangle in shape with four legs, material used is wood for surface of the table and legs are made with metal and overall appearance looks like dining table/study table/office table",
+    "This is a long rectangular shaped brown wood solid table with solidly filled legs.",
+    "A brown wooden rectangle center table. It had two wooden grill designed legs on each side and a long wooden plank at the center.",
+    "A table that is brown, rectangular, made of wood, and seems useful only for a very simple desk or table.",
+    "A low rise wooden table in brown color, simple design and small legs.",
+    "squared dinner table made of hard wood traditional wenge color",
+    "It's a nice normal table. Rectangle shaped and woody colored also have a space for carry papers and books under the roof.",
+    "A white color table, iron material, variety model and new-fasioned",
+    "A gray metal table, square shaped with four legs",
+    "A METAL TABLE WITH ROUND BOARD AND SQUARE BASE",
+    "TABLE HAS MANY DRAWERS AND SELFS WHICH IS MADE UP OF WOOD AND GLASS IS FIX TOP OF THE TABLE.",
+    "The table is brown in color. It is rectangle in shape. It is made of wood. It is very well designed and looks very good.",
+    "A wooden table with a drawer in it. It has four legs."
+  ],
+  "category_diagnostic_reconstruction_calibration": 0.9799999594688416,
+  "decoder_validation_iou": 0.7845701575279236,
+  "generation": {
+    "parent_g2": {
+      "latent_rms": 0.9904687404632568,
+      "nearest_train_latent_rmse": 0.7416834235191345,
+      "bottom64_energy_fraction": 0.008595004677772522,
+      "regularized_whitened_rms": 1.1934726238250732,
+      "category_agreement": 0.9750000238418579,
+      "chair_category_agreement": 0.9750000238418579,
+      "table_category_agreement": 0.9750000238418579,
+      "nearest_training_voxel_iou_mean": 0.5801246762275696,
+      "nearest_training_voxel_iou_max": 0.9367552995681763,
+      "voxel_components_26_mean": 4.0875,
+      "largest_voxel_component_fraction_mean": 0.96660643017264,
+      "empty_count": 0,
+      "opposite_caption_latent_rmse": 1.1229677200317383,
+      "opposite_caption_voxel_iou": 0.1051865965127945,
+      "seed_change_latent_rmse": 1.2825665473937988,
+      "seed_change_voxel_iou": 0.14073073863983154
+    },
+    "finetuned_g2": {
+      "latent_rms": 0.9322335720062256,
+      "nearest_train_latent_rmse": 0.7212207317352295,
+      "bottom64_energy_fraction": 0.007627766113728285,
+      "regularized_whitened_rms": 1.091348648071289,
+      "category_agreement": 0.987500011920929,
+      "chair_category_agreement": 0.9750000238418579,
+      "table_category_agreement": 1.0,
+      "nearest_training_voxel_iou_mean": 0.5658530592918396,
+      "nearest_training_voxel_iou_max": 0.9251101613044739,
+      "voxel_components_26_mean": 3.6375,
+      "largest_voxel_component_fraction_mean": 0.9678141118533713,
+      "empty_count": 0,
+      "opposite_caption_latent_rmse": 1.0531458854675293,
+      "opposite_caption_voxel_iou": 0.09925442934036255,
+      "seed_change_latent_rmse": 1.2187830209732056,
+      "seed_change_voxel_iou": 0.13736246526241302
+    }
+  },
+  "high_noise": {
+    "parent": [
+      {
+        "timestep": 100,
+        "correct_clean_latent_rmse": 0.4576670527458191,
+        "opposite_clean_latent_rmse": 0.48233065009117126
+      },
+      {
+        "timestep": 190,
+        "correct_clean_latent_rmse": 0.9203468561172485,
+        "opposite_clean_latent_rmse": 1.0204235315322876
+      },
+      {
+        "timestep": 199,
+        "correct_clean_latent_rmse": 0.9398598074913025,
+        "opposite_clean_latent_rmse": 1.0215860605239868
+      }
+    ],
+    "finetuned": [
+      {
+        "timestep": 100,
+        "correct_clean_latent_rmse": 0.45459869503974915,
+        "opposite_clean_latent_rmse": 0.4809461236000061
+      },
+      {
+        "timestep": 190,
+        "correct_clean_latent_rmse": 0.9192330837249756,
+        "opposite_clean_latent_rmse": 1.0182163715362549
+      },
+      {
+        "timestep": 199,
+        "correct_clean_latent_rmse": 0.9377155303955078,
+        "opposite_clean_latent_rmse": 1.0182706117630005
+      }
+    ]
+  },
+  "candidate_evaluations": {
+    "parent": {
+      "selected_epoch": 80,
+      "selected_total_epoch": 80,
+      "selected_step": 10080,
+      "val": {
+        "velocity_mse": 0.5708305963405499,
+        "shuffled_velocity_mse": 0.6284872908611316,
+        "clean_latent_mse": 0.2675306439340055,
+        "conditioning_gap": 0.05765669452058175
+      }
+    },
+    "finetuned": {
+      "selected_epoch": 2,
+      "selected_total_epoch": 82,
+      "selected_step": 252,
+      "val": {
+        "velocity_mse": 0.5681419700115651,
+        "shuffled_velocity_mse": 0.626358772421981,
+        "clean_latent_mse": 0.2651600404842957,
+        "conditioning_gap": 0.058216802410415935
+      }
+    }
+  },
+  "fixed_prompt_exports": {
+    "parent_g2": [
+      {
+        "prompt": "A chair with a tall back and armrests",
+        "seed": 42,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-0-seed-42.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            71.61089670436957,
+            50.03199829174059,
+            99.99999999999999
+          ],
+          "vertices": 1912,
+          "faces": 3816,
+          "components": 2,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "2 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "A chair with a tall back and armrests",
+        "seed": 43,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-0-seed-43.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            70.77032711819061,
+            46.87871973160463,
+            100.00000000000001
+          ],
+          "vertices": 1896,
+          "faces": 3784,
+          "components": 2,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "2 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "A chair with a tall back and armrests",
+        "seed": 44,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-0-seed-44.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            49.986355110139456,
+            53.16541039223996,
+            100.00000000000001
+          ],
+          "vertices": 2014,
+          "faces": 4028,
+          "components": 2,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "2 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a chair with armrests",
+        "seed": 42,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-1-seed-42.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            95.8546335741316,
+            78.14852443507223,
+            100.0
+          ],
+          "vertices": 4838,
+          "faces": 9664,
+          "components": 3,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "3 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a chair with armrests",
+        "seed": 43,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-1-seed-43.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            74.77120847565752,
+            78.54364899931244,
+            100.0
+          ],
+          "vertices": 3216,
+          "faces": 6392,
+          "components": 10,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "10 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a chair with armrests",
+        "seed": 44,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-1-seed-44.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            87.57450966114165,
+            95.05138163398946,
+            100.0
+          ],
+          "vertices": 6054,
+          "faces": 12108,
+          "components": 5,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "5 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a chair without armrests",
+        "seed": 42,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-2-seed-42.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            83.42962686323057,
+            74.85262748689226,
+            100.0
+          ],
+          "vertices": 4352,
+          "faces": 8704,
+          "components": 1,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a chair without armrests",
+        "seed": 43,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-2-seed-43.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            75.03636434642593,
+            78.06173386350494,
+            100.00000000000001
+          ],
+          "vertices": 3146,
+          "faces": 6280,
+          "components": 3,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "3 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a chair without armrests",
+        "seed": 44,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-2-seed-44.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            50.02571864046689,
+            56.2616307529391,
+            100.0
+          ],
+          "vertices": 1980,
+          "faces": 3956,
+          "components": 3,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "3 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a table with four legs",
+        "seed": 42,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-3-seed-42.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            99.98882542263233,
+            99.99369456781541,
+            100.0
+          ],
+          "vertices": 4582,
+          "faces": 9144,
+          "components": 5,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "5 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a table with four legs",
+        "seed": 43,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-3-seed-43.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            84.02207571983556,
+            78.15775237874857,
+            99.99999999999999
+          ],
+          "vertices": 4242,
+          "faces": 8428,
+          "components": 15,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "15 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a table with four legs",
+        "seed": 44,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-3-seed-44.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            100.0,
+            49.99978411942158,
+            46.78061558851715
+          ],
+          "vertices": 1980,
+          "faces": 3956,
+          "components": 1,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      }
+    ],
+    "finetuned_g2": [
+      {
+        "prompt": "A chair with a tall back and armrests",
+        "seed": 42,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-0-seed-42.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            71.15914774993159,
+            49.99154891379765,
+            99.99999999999999
+          ],
+          "vertices": 1874,
+          "faces": 3736,
+          "components": 4,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "4 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "A chair with a tall back and armrests",
+        "seed": 43,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-0-seed-43.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            46.89634401026087,
+            46.870301724117134,
+            100.0
+          ],
+          "vertices": 1906,
+          "faces": 3808,
+          "components": 1,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "A chair with a tall back and armrests",
+        "seed": 44,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-0-seed-44.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            49.982852036196675,
+            53.125413917531844,
+            100.0
+          ],
+          "vertices": 2070,
+          "faces": 4132,
+          "components": 4,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "4 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a chair with armrests",
+        "seed": 42,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-1-seed-42.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            93.14576224063207,
+            75.11505486351044,
+            100.0
+          ],
+          "vertices": 4114,
+          "faces": 8216,
+          "components": 4,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "4 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a chair with armrests",
+        "seed": 43,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-1-seed-43.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            73.9889778329482,
+            77.78937978080897,
+            100.0
+          ],
+          "vertices": 2828,
+          "faces": 5624,
+          "components": 8,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "8 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a chair with armrests",
+        "seed": 44,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-1-seed-44.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            50.89932640401375,
+            60.78406291223996,
+            99.99999999999999
+          ],
+          "vertices": 2124,
+          "faces": 4240,
+          "components": 5,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "5 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a chair without armrests",
+        "seed": 42,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-2-seed-42.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            43.7248788731754,
+            51.188342396244096,
+            99.99999999999999
+          ],
+          "vertices": 1858,
+          "faces": 3708,
+          "components": 2,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "2 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a chair without armrests",
+        "seed": 43,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-2-seed-43.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            74.74444296919144,
+            76.83934645988573,
+            100.0
+          ],
+          "vertices": 3029,
+          "faces": 6066,
+          "components": 3,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "3 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a chair without armrests",
+        "seed": 44,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-2-seed-44.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            50.01576940159373,
+            56.25706626317266,
+            100.0
+          ],
+          "vertices": 2080,
+          "faces": 4152,
+          "components": 4,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "4 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a table with four legs",
+        "seed": 42,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-3-seed-42.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            99.9985350293773,
+            99.99125171325662,
+            100.00000000000001
+          ],
+          "vertices": 4372,
+          "faces": 8728,
+          "components": 4,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "4 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a table with four legs",
+        "seed": 43,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-3-seed-43.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            83.90173167038583,
+            78.4385434084563,
+            100.0
+          ],
+          "vertices": 4362,
+          "faces": 8704,
+          "components": 7,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "7 disconnected components; all have been preserved.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      },
+      {
+        "prompt": "a table with four legs",
+        "seed": 44,
+        "mesh": {
+          "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-3-seed-44.stl",
+          "units": "mm (interpret STL coordinates as millimeters)",
+          "extents_mm": [
+            100.0,
+            50.000346452006795,
+            43.810567470915515
+          ],
+          "vertices": 2058,
+          "faces": 4112,
+          "components": 1,
+          "watertight": true,
+          "warnings": [
+            "Geometry touches the grid boundary; the exterior is capped for export.",
+            "Check wall thickness, supports, and scale in your slicer. Printability is unverified."
+          ]
+        }
+      }
+    ]
+  },
+  "reopened_mesh_checks": [
+    {
+      "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-0-seed-42.stl",
+      "finite": true,
+      "watertight": true,
+      "components": 2,
+      "extents_mm": [
+        71.61089324951172,
+        50.03199768066406,
+        100.0
+      ]
+    },
+    {
+      "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-0-seed-43.stl",
+      "finite": true,
+      "watertight": true,
+      "components": 2,
+      "extents_mm": [
+        70.77032470703125,
+        46.878719329833984,
+        100.0
+      ]
+    },
+    {
+      "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-0-seed-44.stl",
+      "finite": true,
+      "watertight": true,
+      "components": 2,
+      "extents_mm": [
+        49.98635482788086,
+        53.165409088134766,
+        100.0
+      ]
+    },
+    {
+      "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-3-seed-42.stl",
+      "finite": true,
+      "watertight": true,
+      "components": 5,
+      "extents_mm": [
+        99.98882293701172,
+        99.99369812011719,
+        100.0
+      ]
+    },
+    {
+      "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-3-seed-43.stl",
+      "finite": true,
+      "watertight": true,
+      "components": 15,
+      "extents_mm": [
+        84.02207946777344,
+        78.15775299072266,
+        100.0
+      ]
+    },
+    {
+      "path": "E:\\STLModelData\\diffusion-low-lr-v1\\parent_g2\\prompt-3-seed-44.stl",
+      "finite": true,
+      "watertight": true,
+      "components": 1,
+      "extents_mm": [
+        100.0,
+        49.99978256225586,
+        46.780616760253906
+      ]
+    },
+    {
+      "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-0-seed-42.stl",
+      "finite": true,
+      "watertight": true,
+      "components": 4,
+      "extents_mm": [
+        71.15914916992188,
+        49.99155044555664,
+        100.0
+      ]
+    },
+    {
+      "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-0-seed-43.stl",
+      "finite": true,
+      "watertight": true,
+      "components": 1,
+      "extents_mm": [
+        46.89634323120117,
+        46.87030029296875,
+        100.0
+      ]
+    },
+    {
+      "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-0-seed-44.stl",
+      "finite": true,
+      "watertight": true,
+      "components": 4,
+      "extents_mm": [
+        49.982852935791016,
+        53.12541580200195,
+        100.0
+      ]
+    },
+    {
+      "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-3-seed-42.stl",
+      "finite": true,
+      "watertight": true,
+      "components": 4,
+      "extents_mm": [
+        99.99853515625,
+        99.99124908447266,
+        100.0
+      ]
+    },
+    {
+      "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-3-seed-43.stl",
+      "finite": true,
+      "watertight": true,
+      "components": 7,
+      "extents_mm": [
+        83.9017333984375,
+        78.43854522705078,
+        100.0
+      ]
+    },
+    {
+      "path": "E:\\STLModelData\\diffusion-low-lr-v1\\finetuned_g2\\prompt-3-seed-44.stl",
+      "finite": true,
+      "watertight": true,
+      "components": 1,
+      "extents_mm": [
+        100.0,
+        50.00034713745117,
+        43.81056594848633
+      ]
+    }
+  ],
+  "protected_source_hashes": {
+    "E:\\STLModelData\\text2shape-v1\\embeddings.pt": "099380612172cbcbf069c8bd13ea740b606d480b3d6356772fc7e0c896695dff",
+    "E:\\STLModelData\\text2shape-v1\\prepared\\manifest.json": "be64c75c5f1823f70472cad4fcb1706290180bd6a15343addde3ffd4c8a7e92e",
+    "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-vae-v1\\best.pt": "3ca72f7237a975bd77df6ae9faa2857600c8797eb7a4e9dcf2a157c46f49c72d",
+    "C:\\Users\\marug\\STLModel\\runs\\text2shape-pilot-diffusion-v1\\best.pt": "338a5e5bb34cf15b22fb7c34e4dd487fc39e5a8815be096494df2fbdae091732",
+    "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-velocity\\best.pt": "87ef16e969755e63e5cee4066b3785bdc5746ca9d221984ba5bdcc2d7240c9ee",
+    "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-velocity\\config.json": "26a1d7c5ec3ba94925a658143e39967734218a533e680e4544cf0969a912632d",
+    "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-velocity\\last.pt": "584f89f240bc0251e7b702df72a76b6ac7a53cdc643395be41e2b0d3a84c4cbc",
+    "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-velocity\\metrics.jsonl": "53cfea66e690125d419735af509331fe16feca711535d69862639055f0d6af11",
+    "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-velocity\\summary.json": "e59512907ceb7636a60cab76cee5f3ebf621b24517a63a19efab777a1ccb0f49",
+    "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-conditioned\\best.pt": "8cead1fab3127f35797e3fffaf3d3c7cf9b9512f7b0ead8a5aa93546f8935de3",
+    "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-conditioned\\config.json": "948a74f17386b0d4bf011524ae52ea7f1d94ee3128f405c5729f37cd546e328d",
+    "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-conditioned\\last.pt": "889eb46c495d3b9db647ca996c6d1283534a69c45788f7d12228ce65c44d91f0",
+    "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-conditioned\\metrics.jsonl": "7ee5836e7acb6c619f7509e54fd430221b12cb0ca2c9617462c9e00c059e608f",
+    "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-conditioned\\summary.json": "7e5e81be33b6f5a252a4f84329fc566987a5a075be291f77aa610ecfa7c364ca"
+  },
+  "protected_artifacts_unchanged": true,
+  "production_model_promoted": false,
+  "selected_checkpoint_hashes": {
+    "parent": "8cead1fab3127f35797e3fffaf3d3c7cf9b9512f7b0ead8a5aa93546f8935de3",
+    "finetuned": "87c9ce44667ad2e05e387b8be3ad3255ee81e74938a3cc8700ae43bc842d4341"
+  },
+  "acceptance": {
+    "checks": {
+      "validation_velocity_improves_at_least_0.5_percent": false,
+      "validation_clean_latent_error_no_worse": true,
+      "category_agreement_no_worse": true,
+      "largest_voxel_fraction_no_worse": true,
+      "mesh_components_no_worse": true,
+      "all_exports_verified": true,
+      "high_noise_190_error_no_worse": true,
+      "high_noise_199_error_no_worse": true
+    },
+    "numerical_gates_passed": false,
+    "visual_review": "failed",
+    "accepted": false,
+    "retained_checkpoint": "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-conditioned\\best.pt",
+    "visual_observations": [
+      "Armrest prompt seed 44 loses the parent's enclosing armchair-like sides and has more fragmented lower supports.",
+      "Tall-back chairs still miss armrests; seeds 42 and 44 have more detached mesh components than the parent.",
+      "Table seed 43 retains broken support structure despite lower component counts; seed 44 has gaps and roughness in the top.",
+      "No-armrest seed 42 improves its requested attribute, but these mixed gains do not resolve the matched regressions."
+    ],
+    "rejection_reasons": [
+      "validation_velocity_improves_at_least_0.5_percent",
+      "visual_regression"
+    ]
+  },
+  "test_evaluation": "not_run_candidate_failed_acceptance"
+}

@@ -202,12 +202,22 @@ def validate_pairing(state, cache, source_hash):
 
 
 def train_candidate(
-    cache, source_hash, out, config, device="cuda", resume=False, initialize_from=None
+    cache,
+    source_hash,
+    out,
+    config,
+    device="cuda",
+    resume=False,
+    initialize_from=None,
+    warm_start_from=None,
+    warm_start_source=None,
 ):
     """Save model/optimizer/RNG/cursor state without touching the source artifacts."""
     config.validate()
-    if resume and initialize_from is not None:
+    if sum((bool(resume), initialize_from is not None, warm_start_from is not None)) > 1:
         raise ValueError("Resume and checkpoint fork are mutually exclusive")
+    if (warm_start_from is None) != (warm_start_source is None):
+        raise ValueError("Data warm start requires the original cache and its hash")
     out = Path(out)
     last = out / "last.pt"
     if out.exists() and any(out.iterdir()) and not resume:
@@ -261,6 +271,32 @@ def train_candidate(
         torch.set_rng_state(state["torch_rng"])
         if str(device).startswith("cuda"):
             torch.cuda.set_rng_state_all(state["cuda_rng"])
+    if warm_start_from is not None:
+        source = Path(warm_start_from).resolve()
+        state = load_checkpoint(source, KIND)
+        parent_cache, parent_hash = warm_start_source
+        validate_pairing(state, parent_cache, parent_hash)
+        # A new dataset may change membership, but cannot change the latent coordinate system.
+        for key in ("vae_sha256", "text_model", "text_revision"):
+            if state[key] != cache[key]:
+                raise ValueError(f"Warm start changes frozen {key}")
+        for key in ("latent_mean", "latent_std"):
+            if not torch.equal(state[key].cpu(), cache[key].cpu()):
+                raise ValueError(f"Warm start changes normalization {key}")
+        for key in ("variant", "width", "diffusion_steps", "text_dropout"):
+            if state["config"][key] != getattr(config, key):
+                raise ValueError(f"Warm start changes architecture/objective {key}")
+        model.load_state_dict(state["model"])
+        # Reset AdamW moments, counters, and RNG for the changed training distribution.
+        provenance = {
+            "path": str(source),
+            "sha256": file_hash(source),
+            "epoch": state.get("epoch_offset", 0) + state["epoch"],
+            "step": state.get("step_offset", 0) + state["step"],
+            "mode": "new_data_weights_only",
+            "source_sha256": parent_hash,
+            "optimizer_reset": True,
+        }
     out.mkdir(parents=True, exist_ok=True)
     write_json(
         out / "config.json",
@@ -335,7 +371,7 @@ def train_candidate(
 
     stop_reason = "epoch_limit"
     metrics = None
-    if initialize_from is not None:
+    if initialize_from is not None or warm_start_from is not None:
         # Anchor checkpoint selection to a freshly measured parent, not its historical score.
         metrics = validate_save(False)
     try:

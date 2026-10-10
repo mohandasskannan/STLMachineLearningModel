@@ -96,6 +96,7 @@ def review(
     device,
     *,
     candidate_runs=None,
+    candidate_sources=None,
     artifact_dir=ARTIFACTS,
     include_legacy=True,
     guidance_scales=(1.0, 2.0, 3.0),
@@ -201,7 +202,8 @@ def review(
     }
     candidates = {}
     for name, path in (RUNS if candidate_runs is None else candidate_runs).items():
-        model, schedule, state = load_candidate(path / "best.pt", cache, source_hash, device)
+        paired_cache, paired_hash = (candidate_sources or {}).get(name, (cache, source_hash))
+        model, schedule, state = load_candidate(path / "best.pt", paired_cache, paired_hash, device)
         candidates[name] = (model, schedule)
         result["candidate_evaluations"][name] = {
             "selected_epoch": state["epoch"],

@@ -290,6 +290,12 @@ regression. The epoch-80 checkpoint remains selected. See the
 The furniture dataset has now expanded to 14,028 objects, including 11,214
 training shapes and 47,662 screened source captions. All 400 original validation
 and test objects are preserved. Geometry, duplicate, and caption checks plus
-32 visual spot checks were completed; no model was retrained. See the
+32 visual spot checks were completed during preparation. See the
 [data expansion report](experiments/furniture-data-v2/report.md).
+
+A subsequent 30-epoch expanded-data training run improves validation error by
+15.9% on the expanded set and 16.4% on the original set, with fewer disconnected
+mesh pieces on average. A visible tall-chair regression prevents replacement;
+epoch 80 remains selected. See the
+[expanded-data training report](experiments/furniture-diffusion-v2/report.md).
 

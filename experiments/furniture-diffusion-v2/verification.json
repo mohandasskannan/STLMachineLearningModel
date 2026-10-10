@@ -1,0 +1,240 @@
+{
+  "reopened_count": 24,
+  "all_finite": true,
+  "all_scale_correct": true,
+  "all_on_build_plane": true,
+  "watertight_count": 24,
+  "protected_sources_unchanged": true,
+  "fixed_prompt_mesh_summary": {
+    "parent_g2": {
+      "samples": 12,
+      "mesh_components_mean": 4.333333333333333,
+      "mesh_components_min": 1,
+      "mesh_components_max": 15
+    },
+    "expanded_g2": {
+      "samples": 12,
+      "mesh_components_mean": 2.3333333333333335,
+      "mesh_components_min": 1,
+      "mesh_components_max": 7
+    }
+  },
+  "meshes": [
+    {
+      "variant": "parent_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\parent_g2\\prompt-0-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "parent_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\parent_g2\\prompt-0-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "parent_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\parent_g2\\prompt-0-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "parent_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\parent_g2\\prompt-1-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "parent_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\parent_g2\\prompt-1-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 10
+    },
+    {
+      "variant": "parent_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\parent_g2\\prompt-1-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 5
+    },
+    {
+      "variant": "parent_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\parent_g2\\prompt-2-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "parent_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\parent_g2\\prompt-2-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "parent_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\parent_g2\\prompt-2-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "parent_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\parent_g2\\prompt-3-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 5
+    },
+    {
+      "variant": "parent_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\parent_g2\\prompt-3-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 15
+    },
+    {
+      "variant": "parent_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\parent_g2\\prompt-3-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "expanded_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\expanded_g2\\prompt-0-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "expanded_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\expanded_g2\\prompt-0-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "expanded_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\expanded_g2\\prompt-0-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "expanded_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\expanded_g2\\prompt-1-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "expanded_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\expanded_g2\\prompt-1-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 4
+    },
+    {
+      "variant": "expanded_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\expanded_g2\\prompt-1-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 7
+    },
+    {
+      "variant": "expanded_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\expanded_g2\\prompt-2-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 2
+    },
+    {
+      "variant": "expanded_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\expanded_g2\\prompt-2-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "expanded_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\expanded_g2\\prompt-2-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 3
+    },
+    {
+      "variant": "expanded_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\expanded_g2\\prompt-3-seed-42.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "expanded_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\expanded_g2\\prompt-3-seed-43.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    },
+    {
+      "variant": "expanded_g2",
+      "path": "E:\\STLModelData\\furniture-diffusion-v2\\expanded_g2\\prompt-3-seed-44.stl",
+      "finite": true,
+      "scale_correct": true,
+      "on_build_plane": true,
+      "watertight": true,
+      "components": 1
+    }
+  ]
+}

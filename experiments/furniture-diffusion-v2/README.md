@@ -44,6 +44,10 @@ validation regression, and no reduction in category agreement, dominant voxel
 fraction, or fixed-prompt mesh connectivity. Visual review is required in addition
 to those diagnostics. The current epoch-80 playground stays selected until the
 candidate is reviewed; this runner never promotes a model automatically.
+Record the visual observations using `finalize --visual-verdict passed|failed
+--visual-note "observation"` after inspecting the comparison and control sheets.
+Finalization verifies checkpoint fingerprints again and cannot override failed
+numerical gates.
 
 ## Checks
 

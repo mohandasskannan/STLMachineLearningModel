@@ -1,0 +1,49 @@
+{
+  "groups": {
+    "added_train_chair": {
+      "objects": 4031,
+      "mean_iou": 0.752301738253896,
+      "p10_iou": 0.5729690790176392,
+      "fraction_iou_at_least_0.4": 0.9925576779955346
+    },
+    "added_train_table": {
+      "objects": 5640,
+      "mean_iou": 0.7951653601535669,
+      "p10_iou": 0.6234803378582001,
+      "fraction_iou_at_least_0.4": 0.9968085106382979
+    },
+    "added_train_all": {
+      "objects": 9671,
+      "mean_iou": 0.7772992387723681,
+      "p10_iou": 0.5982999205589294,
+      "fraction_iou_at_least_0.4": 0.9950367076827629
+    },
+    "added_val_chair": {
+      "objects": 503,
+      "mean_iou": 0.7328638494844228,
+      "p10_iou": 0.5466024041175842,
+      "fraction_iou_at_least_0.4": 0.9960238568588469
+    },
+    "added_val_table": {
+      "objects": 704,
+      "mean_iou": 0.8000370188700882,
+      "p10_iou": 0.6327592492103576,
+      "fraction_iou_at_least_0.4": 0.9985795454545454
+    },
+    "added_val_all": {
+      "objects": 1207,
+      "mean_iou": 0.7720435605428391,
+      "p10_iou": 0.583673071861267,
+      "fraction_iou_at_least_0.4": 0.9975144987572494
+    }
+  },
+  "checks": {
+    "added_validation_mean_iou_at_least_0.65": true,
+    "added_validation_90_percent_iou_at_least_0.4": true,
+    "added_validation_chair_mean_iou_at_least_0.60": true,
+    "added_validation_table_mean_iou_at_least_0.60": true
+  },
+  "passed": true,
+  "test_evaluated": false,
+  "reconstruction": "deterministic posterior mean"
+}

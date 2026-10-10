@@ -251,6 +251,26 @@ def load_expanded(old):
     return cache, summary["cache_sha256"]
 
 
+def render_controls_back(result):
+    renderer_spec = importlib.util.spec_from_file_location(
+        "expanded_controls_renderer", ROOT / "experiments/procedural-v1/render_review.py"
+    )
+    renderer = importlib.util.module_from_spec(renderer_spec)
+    renderer_spec.loader.exec_module(renderer)
+    pairs = [
+        (Path(row["mesh"]["path"]), f"{name} / {row['prompt']} / {row['seed']}")
+        for name in ("parent_g2", "expanded_g2")
+        for row in result["fixed_prompt_exports"][name]
+    ]
+    renderer.render(
+        [pair[0] for pair in pairs],
+        [pair[1] for pair in pairs],
+        TRACKED / "controls-back.png",
+        3,
+        front=False,
+    )
+
+
 def review(old, cache, cache_hash, protected, device):
     result = previous.review(
         old,
@@ -281,6 +301,7 @@ def review(old, cache, cache_hash, protected, device):
         },
     )
     verification = verify(result, TRACKED, ARTIFACTS, ("parent_g2", "expanded_g2"))
+    render_controls_back(result)
     p, c = (result["candidate_evaluations"][name] for name in ("parent", "expanded"))
     pg, cg = (result["generation"][name] for name in ("parent_g2", "expanded_g2"))
     checks = {
@@ -313,14 +334,40 @@ def review(old, cache, cache_hash, protected, device):
     print({"acceptance": result["acceptance"]}, flush=True)
 
 
+def finalize(verdict, notes):
+    result = json.loads((TRACKED / "results.json").read_text())
+    current = {"parent": file_hash(PARENT), "expanded": file_hash(RUN / "best.pt")}
+    if current != result["selected_checkpoint_hashes"]:
+        raise ValueError("Selected weights changed after comparison")
+    if protected_hashes() != result["protected_source_hashes"]:
+        raise ValueError("Protected artifacts changed after comparison")
+    acceptance = result["acceptance"]
+    acceptance.update(
+        visual_review=verdict,
+        visual_observations=notes,
+        accepted=acceptance["numerical_gates_passed"] and verdict == "passed",
+    )
+    acceptance["retained_checkpoint"] = str(RUN / "best.pt" if acceptance["accepted"] else PARENT)
+    acceptance["rejection_reasons"] = [
+        name for name, passed in acceptance["checks"].items() if not passed
+    ] + (["visual_regression"] if verdict == "failed" else [])
+    for directory in (TRACKED, ARTIFACTS):
+        write_json(directory / "results.json", result)
+    print({"acceptance": acceptance}, flush=True)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        "stage", choices=("all", "cache", "train", "review"), nargs="?", default="all"
+        "stage", choices=("all", "cache", "train", "review", "finalize"), nargs="?", default="all"
     )
     parser.add_argument("--device", choices=("cuda", "cpu"), default="cuda")
     parser.add_argument("--resume", action="store_true")
+    parser.add_argument("--visual-verdict", choices=("passed", "failed"))
+    parser.add_argument("--visual-note", action="append", default=[])
     args = parser.parse_args()
+    if args.stage == "finalize" and (args.visual_verdict is None or not args.visual_note):
+        parser.error("Finalization requires a visual verdict and observations")
     torch.set_num_threads(4)
     if file_hash(MANIFEST) != MANIFEST_HASH:
         raise ValueError("Expected the finalized screened furniture manifest")
@@ -367,6 +414,8 @@ def main():
                     return
         if args.stage in ("all", "review"):
             review(old, cache, cache_hash, protected, args.device)
+    if args.stage == "finalize":
+        finalize(args.visual_verdict, args.visual_note)
     if protected_hashes() != protected:
         raise ValueError("A protected artifact changed")
     print({"completed": args.stage, "protected_artifacts_unchanged": True}, flush=True)

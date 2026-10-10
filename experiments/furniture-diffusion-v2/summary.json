@@ -1,0 +1,26 @@
+{
+  "variant": "conditioned",
+  "step": 22350,
+  "epoch": 30,
+  "total_epoch": 30,
+  "parent": {
+    "path": "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-conditioned\\best.pt",
+    "sha256": "8cead1fab3127f35797e3fffaf3d3c7cf9b9512f7b0ead8a5aa93546f8935de3",
+    "epoch": 80,
+    "step": 10080,
+    "mode": "new_data_weights_only",
+    "source_sha256": "099380612172cbcbf069c8bd13ea740b606d480b3d6356772fc7e0c896695dff",
+    "optimizer_reset": true
+  },
+  "stop_reason": "epoch_limit",
+  "session_seconds": 287.17200000000594,
+  "validation": {
+    "velocity_mse": 0.48589774850939144,
+    "shuffled_velocity_mse": 0.544096251667523,
+    "clean_latent_mse": 0.24995361024239024,
+    "conditioning_gap": 0.05819850315813152
+  },
+  "best_velocity_mse": 0.48589774850939144,
+  "parameters": 4958976,
+  "peak_allocated_gib": 0.22233057022094727
+}

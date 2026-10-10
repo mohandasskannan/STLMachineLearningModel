@@ -120,3 +120,42 @@ def test_transfer_rejects_changed_latent_coordinates(tmp_path, key):
             warm_start_from=tmp_path / "parent/best.pt",
             warm_start_source=(original, "old-source"),
         )
+
+
+def test_visual_pass_cannot_override_numerical_rejection_or_changed_weights(tmp_path, monkeypatch):
+    import json
+
+    runner_spec = importlib.util.spec_from_file_location(
+        "expanded_data_runner", Path(__file__).with_name("run_experiment.py")
+    )
+    runner = importlib.util.module_from_spec(runner_spec)
+    runner_spec.loader.exec_module(runner)
+    parent = tmp_path / "parent.pt"
+    parent.write_bytes(b"original weights")
+    run = tmp_path / "run"
+    run.mkdir()
+    (run / "best.pt").write_bytes(b"candidate weights")
+    results = {
+        "selected_checkpoint_hashes": {
+            "parent": file_hash(parent),
+            "expanded": file_hash(run / "best.pt"),
+        },
+        "protected_source_hashes": {},
+        "acceptance": {
+            "numerical_gates_passed": False,
+            "checks": {"original_validation_preserved": False},
+        },
+    }
+    monkeypatch.setattr(runner, "PARENT", parent)
+    monkeypatch.setattr(runner, "RUN", run)
+    monkeypatch.setattr(runner, "TRACKED", tmp_path)
+    monkeypatch.setattr(runner, "ARTIFACTS", tmp_path / "artifacts")
+    monkeypatch.setattr(runner, "protected_hashes", dict)
+    (tmp_path / "results.json").write_text(json.dumps(results))
+    runner.finalize("passed", ["Visual shapes reviewed"])
+    recorded = json.loads((tmp_path / "results.json").read_text())["acceptance"]
+    assert recorded["accepted"] is False
+    assert recorded["retained_checkpoint"] == str(parent)
+    (run / "best.pt").write_bytes(b"different weights after review")
+    with pytest.raises(ValueError, match="Selected weights changed"):
+        runner.finalize("passed", ["Visual shapes reviewed"])

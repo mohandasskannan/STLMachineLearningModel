@@ -1,0 +1,23 @@
+{
+  "variant": "conditioned",
+  "seed": 42,
+  "batch_size": 64,
+  "width": 512,
+  "learning_rate": 5e-05,
+  "epochs": 30,
+  "max_seconds": 600,
+  "patience": 10,
+  "max_steps": 0,
+  "text_dropout": 0.15,
+  "diffusion_steps": 200,
+  "source_sha256": "83c29f747d88919178de12ed093469735b3d816c8b4f5bcde5b6e5683c1af3e5",
+  "parent": {
+    "path": "C:\\Users\\marug\\STLModel\\runs\\text2shape-diffusion-high-noise-v1-conditioned\\best.pt",
+    "sha256": "8cead1fab3127f35797e3fffaf3d3c7cf9b9512f7b0ead8a5aa93546f8935de3",
+    "epoch": 80,
+    "step": 10080,
+    "mode": "new_data_weights_only",
+    "source_sha256": "099380612172cbcbf069c8bd13ea740b606d480b3d6356772fc7e0c896695dff",
+    "optimizer_reset": true
+  }
+}

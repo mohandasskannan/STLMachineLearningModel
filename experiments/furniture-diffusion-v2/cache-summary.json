@@ -1,0 +1,14 @@
+{
+  "cache_sha256": "83c29f747d88919178de12ed093469735b3d816c8b4f5bcde5b6e5683c1af3e5",
+  "manifest_sha256": "46c8a1140d454d13d05dd2545b6b0486edad5bd3bc1453afe4498735147e00a5",
+  "normalization_policy": "frozen_epoch80_pilot_training_statistics",
+  "examples": {
+    "train": 47662,
+    "val": 6100
+  },
+  "unique_objects": {
+    "train": 11214,
+    "val": 1407
+  },
+  "test_encoded": false
+}
